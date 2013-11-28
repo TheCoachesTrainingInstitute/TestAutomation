@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SITE>
+	<NAME>SURVEYS</NAME>
+		<SURVEY-LOGIN-PAGE>
+			<LABEL>
+				<NAME>EMAIL_LABEL</NAME>
+				<VALUE>xpath=//*[@id='main']/div[3]/form/table/tbody/tr[1]/th/label</VALUE>
+			</LABEL>
+			<LABEL>
+				<NAME>PASSWORD_LABEL</NAME>
+				<VALUE>xpath=//*[@id='main']/div[3]/form/table/tbody/tr[2]/th/label</VALUE>
+			</LABEL>
+		
+	</SURVEY-LOGIN-PAGE>			
+	<SURVEY-HOME-PAGE>
+			<LINK>
+				<NAME>BREADCRUMB_HOME</NAME>
+				<VALUE>xpath=//*[@id='main']/div[3]/div/a[1]</VALUE>
+			</LINK>
+			<LINK>
+				<NAME>BREADCRUMB_LOGOUT</NAME>
+				<VALUE>xpath=//*[@id='main']/div[3]/div/a[2]</VALUE>
+			</LINK>
+			<LINK>
+				<NAME>SURVEY_LEADER</NAME>
+				<VALUE>xpath=//*[@id='main']/div[3]/p[3]/a</VALUE>
+			</LINK>
+			<LINK>
+				<NAME>SURVEY_JOURNEY_LEADER</NAME>
+				<VALUE>xpath=//*[@id='main']/div[3]/p[4]/a</VALUE>
+			</LINK>
+			<LINK>
+				<NAME>NAME_ONE</NAME>
+				<VALUE>xpath=//*[@id='main']/div[3]/table/tbody/tr[2]/td[1]/a</VALUE>
+			</LINK>
+			<LINK>
+				<NAME>HOME_LINK</NAME>
+				<VALUE>xpath=//*[@id='main']/div[3]/div/a[1]</VALUE>
+			</LINK>
+			<LINK>
+				<NAME>LOGOUT_LINK</NAME>
+				<VALUE>xpath=//*[@id='main']/div[3]/div/a[2]</VALUE>
+			</LINK>
+			<LINK>
+				<NAME>SORT_BY_FIRST_NAME_LINK</NAME>
+				<VALUE>xpath=//*[@id='main']/div[3]/p[2]</VALUE>
+			</LINK>
+			<LINK>
+				<NAME>SORT_BY_LAST_NAME_LINK</NAME>
+				<VALUE>xpath=//*[@id='main']/div[3]/p[3]</VALUE>
+			</LINK>
+			<LINK>
+				<NAME>LOGIN_LINK</NAME>
+				<VALUE>xpath=//*[@id='main']/div[3]/p[3]/a</VALUE>
+			</LINK>
+	</SURVEY-HOME-PAGE>
+</SITE>
+

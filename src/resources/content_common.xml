@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SITE>
+	<NAME>COMMON</NAME>
+	<COMMON-ELEMENTS>
+		<IMAGE>
+			<NAME>_HEADER_IMG</NAME>
+			<VALUE>xpath=//*[@id='broadcast']/img</VALUE>
+		</IMAGE>
+		<IMAGE>
+			<NAME>PORTRAIT_IMAGE</NAME>
+			<VALUE>xpath=//*[@id='portraits']</VALUE>
+		</IMAGE>
+		<IMAGE>
+			<NAME>COACTIVE_LOGO</NAME>
+			<VALUE>xpath=//*[@id='cti-logo-tagged']</VALUE>
+		</IMAGE>
+		<IMAGE>
+			<NAME>ICF_LOGO</NAME>
+			<VALUE>xpath=//*[@id='icf-logo']</VALUE>
+		</IMAGE>
+		
+		<TEXTBOX>
+				<NAME>EMAIL_TEXTBOX</NAME>
+				<VALUE>xpath=//*[@id='signin_username']</VALUE>
+		</TEXTBOX>
+		<TEXTBOX>
+				<NAME>PASSWORD_TEXTBOX</NAME>
+				<VALUE>xpath=//*[@id='signin_password']</VALUE>
+		</TEXTBOX>
+		<LINK>
+				<NAME>NOT_ABLE_TO_LOGIN_LINK</NAME>
+				<VALUE>xpath=//*[@id='main']/div[3]/form/table/tbody/tr[4]/td[2]/a</VALUE>
+		</LINK>
+		<BUTTON>
+				<NAME>LOGIN_BUTTON</NAME>
+				<VALUE>xpath=//*[@id='main']/div[3]/form/table/tbody/tr[3]/td[2]/input</VALUE>
+		</BUTTON>
+		<LINK> 
+			<NAME>PRIVACY_POLICY_LINK</NAME>
+			<VALUE>xpath=//*[@id='privacy-link']</VALUE>
+		</LINK>
+		<LINK>
+			<NAME>DISCLOSURE_LINK</NAME>
+			<VALUE>xpath=//*[@id='footer-legal']/a[2]</VALUE>
+		</LINK>
+		<LINK>
+			<NAME>_C_HOME</NAME>
+			<VALUE>xpath=//html/body/div[1]/header/ul[1]/li[1]/a</VALUE>
+		</LINK>
+		<LINK>
+			<NAME>_B_HOME_LINK</NAME>
+			<VALUE>xpath=//*[@id='breadcrumbs']/p/a[1]</VALUE>
+		</LINK>
+		<LINK>
+			<NAME>_B_LINK2</NAME>
+			<VALUE>xpath=//*[@id='breadcrumbs']/p/a[2]</VALUE>
+		</LINK>
+			<LINK>
+				<NAME>BREADCRUMB_HOME_MAR</NAME>
+				<VALUE>xpath=//*[@id='main']/div[2]/a[1]</VALUE>
+			</LINK>
+			<LINK>
+				<NAME>BREADCRUMB_LOGOUT_MAR</NAME>
+				<VALUE>xpath=//*[@id='main']/div[2]/a[2]</VALUE>
+			</LINK>
+		<LINK>
+			<NAME>_CART_LINK</NAME>
+			<VALUE>xpath=//*[@id='ecommerce']/li[1]/a</VALUE>
+		</LINK>
+		<LINK>
+			<NAME>_CHECKOUT_LINK</NAME>
+			<VALUE>xpath=//*[@id='checkout']</VALUE>
+		</LINK>
+			<OTHERS>
+				<NAME>ERROR_XPATH</NAME>
+				<VALUE>xpath=//*[@id='main']/div[3]/p</VALUE>
+			</OTHERS>
+			<OTHERS>
+				<NAME>ERROR_MESSAGE</NAME>
+				<VALUE>The email address or password did not match our records - Please try again.</VALUE>
+			</OTHERS>	
+			<OTHERS>
+				<NAME>ERROR_MESSAGE_MRKT</NAME>
+				<VALUE>The email address or password did not match our records. Please try again.</VALUE>
+			</OTHERS>
+		
+		<TITLE>
+			<NAME>HOMEPAGE_TITLE</NAME>
+			<VALUE>The Coaches Training Institute CTI | Life Coaching | Executive Life Coaching | Business Coaching | CTI</VALUE>
+		</TITLE>
+		<TITLE>
+			<NAME>E_NEWSLETTER_TITLE</NAME>
+			<VALUE>Sign Up for Our e-Newsletter | CTI</VALUE>
+		</TITLE>
+		<TITLE>
+			<NAME>CONTACT_US_TITLE</NAME>
+			<VALUE>Contact Us | CTI</VALUE>
+		</TITLE>
+		<TITLE>
+			<NAME>_MYCART_TITLE</NAME>
+			<VALUE>AmeriCart</VALUE>
+		</TITLE>
+		<TITLE>
+			<NAME>_CHECKOUT_TITLE</NAME>
+			<VALUE>AmeriCart</VALUE>
+		</TITLE>
+		<TITLE>
+			<NAME>_BLOG_TITLE</NAME>
+			<VALUE>Coaches Training Institute : Transforum</VALUE>
+		</TITLE>
+		<TITLE>
+			<NAME>_PRESS_TITLE</NAME>
+			<VALUE>Press Room | CTI</VALUE>
+		</TITLE>
+		<TITLE>
+			<NAME>COACTIVE_TITLE</NAME>
+			<VALUE>Main Community - Home</VALUE>
+		</TITLE>
+		<TITLE>
+			<NAME>FIND_A_COACH_TITLE</NAME>
+			<VALUE>CTI</VALUE>
+		</TITLE>
+		<TITLE>
+			<NAME>_CTI_INT_TITLE</NAME>
+			<VALUE>CTI International | Coaches Training Institute | CTI | CTI</VALUE>
+		</TITLE>
+			<TITLE>
+			<NAME>_MZINGA_TITLE</NAME>
+			<VALUE>Mzinga Signon</VALUE>
+		</TITLE>
+		<TITLE>
+			<NAME>_AMBASSADOR_TITLE</NAME>
+			<VALUE>CTI Ambassadors DC Diary</VALUE>
+		</TITLE>
+			<TITLE>
+			<NAME>_ABOUT_CTI_TITLE</NAME>
+			<VALUE>About CTI | Coaches Training Institute | CTI | CTI</VALUE>
+		</TITLE>
+			<TITLE>
+			<NAME>_COACTIVE_TITLE</NAME>
+			<VALUE>What is Co-Active? | Coaches Training Institute | CTI | CTI</VALUE>
+		</TITLE>
+		<TITLE>
+			<NAME>_MNGT_TITLE</NAME>
+			<VALUE>Management Team | Coaches Training Institute | CTI | CTI</VALUE>
+		</TITLE>
+			<TITLE>
+			<NAME>_BUY_BOOK_TITLE</NAME>
+			<VALUE>Buy the Book | Coaches Training Institute | CTI | CTI</VALUE>
+		</TITLE>
+			<TITLE>
+			<NAME>_ACC_FAQ_TITLE</NAME>
+			<VALUE>Accreditations &amp; Affiliations | Coaches Training Institute | CTI | CTI</VALUE>
+		</TITLE>
+		
+		<!-- Sub Menu Titles for Coach Training -->
+		
+			<TITLE>
+			<NAME>_COURSES_TITLE</NAME>
+			<VALUE>Core Course Curriculum - Co-Active Coach Training Program | CTI | CTI</VALUE>
+		</TITLE>
+			<TITLE>
+			<NAME>_CERTIFICATION_TITLE</NAME>
+			<VALUE>Certification Program - Co-Active Coach Training Program | CTI | CTI</VALUE>
+		</TITLE>
+			<TITLE>
+			<NAME>_DATES_TITLE</NAME>
+			<VALUE>Dates &amp; Locations - Co-Active Coach Training Program | CTI | CTI</VALUE>
+		</TITLE>
+			<TITLE>
+			<NAME>_PRICING_TITLE</NAME>
+			<VALUE>Pricing &amp; Registration - Co-Active Coach Training Program | CTI | CTI</VALUE>
+		</TITLE>
+			<TITLE>
+			<NAME>_FACULTY_TITLE</NAME>
+			<VALUE>Faculty - Co-Active Coach Training Program |CTI | CTI</VALUE>
+		</TITLE>
+			<TITLE>
+			<NAME>_FAQS_TITLE</NAME>
+			<VALUE>Co-Active Coach Training Program FAQs |Coaches Training Institute |CTI | CTI</VALUE>
+		</TITLE>
+			<TITLE>
+			<NAME>_PROFILES_TITLE</NAME>
+			<VALUE>Profiles | CTI</VALUE>
+		</TITLE>
+			<TITLE>
+			<NAME>_RESOURCES_TITLE</NAME>
+			<VALUE>Coaching Resources - Co-Active Coach Training Program | CTI | CTI</VALUE>
+		</TITLE>
+			<TITLE>
+			<NAME>_BUILDING_BUS_TITLE</NAME>
+			<VALUE>Building Business | CTI</VALUE>
+		</TITLE>
+			<TITLE>
+			<NAME>_ASSISTING_TITLE</NAME>
+			<VALUE>Co-Active Course Assisting - Co-Active Coach Training Program | CTI | CTI</VALUE>
+		</TITLE>
+		
+		<!-- Sub Menu Titles for Leadership -->
+		
+			<TITLE>
+			<NAME>_PRG_OVR_TITLE</NAME>
+			<VALUE>Co-Active Leader Program Overview - Leadership Training | CTI | CTI</VALUE>
+		</TITLE>
+			<TITLE>
+			<NAME>_RETREATS_TITLE</NAME>
+			<VALUE>Residential Leadership Retreats - Co-Active Leader Program | CTI | CTI</VALUE>
+		</TITLE>
+			<TITLE>
+			<NAME>_LEADER_DATES_TITLE</NAME>
+			<VALUE>Dates &amp; Locations - Co-Active Leader Training Program | CTI | CTI</VALUE>
+		</TITLE>
+			<TITLE>
+			<NAME>_LEADER_FAQS_TITLE</NAME>
+			<VALUE>Co-Active Leader Training Program FAQs | CTI | CTI</VALUE>
+		</TITLE>
+		<TITLE>
+			<NAME>_LEADER_PRICING_TITLE</NAME>
+			<VALUE>Pricing &amp; Registration - Co-Active Leader Training Program | CTI | CTI</VALUE>
+		</TITLE>
+		<TITLE>
+			<NAME>_LEADER_FACULTY_TITLE</NAME>
+			<VALUE>Leadership Faculty - Co-Active Leader Training Program | CTI | CTI</VALUE>
+		</TITLE>
+			<TITLE>
+			<NAME>_LEADER_ACC_TITLE</NAME>
+			<VALUE>College Equivalence - Co-Active Leader Training Program | CTI | CTI</VALUE>
+		</TITLE>
+			<TITLE>
+			<NAME>_LEADER_PROFILES_TITLE</NAME>
+			<VALUE>Profiles | CTI</VALUE>
+		</TITLE>
+		<TITLE>
+			<NAME>_LEADER_CREATING_SELF_TITLE</NAME>
+			<VALUE>Leadership Discovery Retreat - Co-Active Leader Training Program | CTI | CTI</VALUE>
+		</TITLE>
+		<TITLE>
+			<NAME>_LEADER_RESOURCES_TITLE</NAME>
+			<VALUE>Leadership Resources - Co-Active Leader Training Program | CTI | CTI</VALUE>
+		</TITLE>
+		
+			<!-- Sub Menu Titles for Organizations -->
+		
+		<TITLE>
+			<NAME>_ORG_INTERNAL_COACTIVECOACH_TITLE</NAME>
+			<VALUE>Internal Co-Active Coach | Coaches Training Institute | CTI | CTI</VALUE>
+		</TITLE>
+			<TITLE>
+			<NAME>_ORG_TALENTCHAMPIONS_TITLE</NAME>
+			<VALUE>Talent Champions | Coaches Training Institute | CTI | CTI</VALUE>
+		</TITLE>
+			<TITLE>
+			<NAME>_ORG_LEADERSHIPADVANTAGE_TITLE</NAME>
+			<VALUE>Leadership Advantage | Coaches Training Institute | CTI | CTI</VALUE>
+		</TITLE>
+			<TITLE>
+			<NAME>_ORG_RELATIONSHIPAGILITY_TITLE</NAME>
+			<VALUE>Relationship Agility | Coaches Training Institute | CTI | CTI</VALUE>
+		</TITLE>
+		<TITLE>
+			<NAME>_ORG_CLIENTLIST_TITLE</NAME>
+			<VALUE>Client List | Coaches Training Institute | CTI | CTI</VALUE>
+		</TITLE>
+		<TITLE>
+			<NAME>_ORG_PROFILES_TITLE</NAME>
+			<VALUE>Profiles | CTI</VALUE>
+		</TITLE>
+			<TITLE>
+			<NAME>_ORG_RESOURCES_TITLE</NAME>
+			<VALUE>Organizational Resources | Coaches Training Institute | CTI | CTI</VALUE>
+		</TITLE>
+		
+		<!-- Sub Menu Titles for Community -->
+		
+		<TITLE>
+			<NAME>_CONNECT_LOCALLY_TITLE</NAME>
+			<VALUE>Connect Locally | Coaches Training Institute | CTI | CTI</VALUE>
+		</TITLE>
+			<TITLE>
+			<NAME>_EVENTS_CALENDAR_TITLE</NAME>
+			<VALUE>Events Calendar | Coaches Training Institute | CTI | CTI</VALUE>
+		</TITLE>
+			<TITLE>
+			<NAME>_2014_COACTIVE_SUMMIT_TITLE</NAME>
+			<VALUE>2014 Co-Active Summit | Coaches Training Institute | CTI | CTI</VALUE>
+		</TITLE>
+			<TITLE>
+			<NAME>_INSTITUTE_OF_COACHING_TITLE</NAME>
+			<VALUE>Institute of Coaching | Coaches Training Institute | CTI | CTI</VALUE>
+		</TITLE>
+		<TITLE>
+			<NAME>_HENRY_ONTHE_RADIO_TITLE</NAME>
+			<VALUE>Henry on the Radio | Coaches Training Institute | CTI | CTI</VALUE>
+		</TITLE>
+		<TITLE>
+			<NAME>_DISRUPT_YOURLIFE_GOODWAY_TITLE</NAME>
+			<VALUE>Disrupt Your Life in a Good Way | Coaches Training Institute | CTI | CTI</VALUE>
+		</TITLE>
+			<TITLE>
+			<NAME>_COACTIVE_GLOBAL_NEWSLETTER_TITLE</NAME>
+			<VALUE>Co-Active Global Newsletter | Coaches Training Institute | CTI | CTI</VALUE>
+		</TITLE>
+		
+		<!-- Sub Menu Titles for Footer -->
+		
+		<TITLE>
+			<NAME>JOBS_TITLE</NAME>
+			<VALUE>Careers at CTI | CTI</VALUE>
+		</TITLE>
+		
+		<MENU>
+			<NAME>_WHY_CTI</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-why-cti']/a[@href='http://www.thecoaches.com/why-cti']</VALUE>
+		</MENU>
+		<MENU>
+			<NAME>_COACH_TRAINING</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-coach-training']/a[@href='http://www.thecoaches.com/coach-training']</VALUE>
+		</MENU>
+		<MENU>
+			<NAME>_LEADERSHIP</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-leadership']/a[@href='http://www.thecoaches.com/leadership']</VALUE>
+		</MENU>
+		<MENU>
+			<NAME>_FOR_ORGANIZATIONS</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-for-organizations']/a[@href='http://www.thecoaches.com/for-organizations']</VALUE>
+		</MENU>
+		<MENU>
+			<NAME>_COMMUNITY</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-community']/a[@href='http://www.thecoaches.com/community']</VALUE>
+		</MENU>
+		<SUB-MENU>
+			<NAME>_ABOUT_CTI_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-about-cti']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_WHAT_IS_COACTIVE_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-what-is-co-active']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_MANAGEMENT_TEAM_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-management']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_BUY_THEBOOK_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-buy-the-book']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_FACULTY_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-faculty']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_ACCREDITATIONS_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-accreditation-faqs']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_CTI_INTERNATIONAL_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-cti-international']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_CORE_COURSES_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-courses']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_CERTIFICATION_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-certification']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_DATES_LOCATIONS_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-dates-locations']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_PRICING_REGISTRATION_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-pricing-registration']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_COACHTRAINING_FACULTY_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-faculty']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_FAQS_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-faqs']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_COLLEGE_EQUIVALENCE_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-college-equivalence']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_PROFILES_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-profiles-testimonials']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_RESOURCES_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-resources']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_BUSINESS_SUCCESS_TRAINING_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-business-success-training']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_BUILDING_BUSINESS_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-building-business']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_ASSISTING_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-assisting']/a</VALUE>
+		</SUB-MENU>
+		
+		<SUB-MENU>
+			<NAME>_ORG_INTERNAL_COACTIVECOACH_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-internal-co-active-coach']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_ORG_TALENTCHAMPIONS_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-talent-champions']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_ORG_LEADERSHIPADVANTAGE_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-leadership-advantage']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_ORG_RELATIONSHIPAGILITY_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-relationship-agility']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_ORG_CLIENTLIST_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-client-list']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_ORG_PROFILES_SUBMENU</NAME>
+			<VALUE>xpath=(//a[contains(text(),'Profiles')])[3]</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_ORG_RESOURCES_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-resources']/a[@href='http://www.thecoaches.com/for-organizations/resources']</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_ORG_TRAINING_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-profiles']/a</VALUE>
+		</SUB-MENU>
+		
+		<SUB-MENU>
+			<NAME>_LEADERSHIP_PROGRAM_OVERVIEW_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-program-overview']/a</VALUE>
+		</SUB-MENU>	
+		<SUB-MENU>
+			<NAME>_LEADERSHIP_RETREATS_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-retreats']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_LEADERSHIP_DATESLOCATIONS_SUBMENU</NAME>
+			<VALUE>xpath=(//li[@id='nav-sub-dates-locations']/a)[2]</VALUE>
+		</SUB-MENU>	<SUB-MENU>
+			<NAME>_LEADERSHIP_PROGRAM_FAQS_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-program-faqs']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_LEADERSHIP_FAQS_SUBMENU</NAME>
+			<VALUE>xpath=(//a[contains(text(),'FAQs')])[3]</VALUE>
+		</SUB-MENU>	
+		<SUB-MENU>
+			<NAME>_LEADERSHIP_PRICING_REGISTRATION_SUBMENU</NAME>
+			<VALUE>xpath=(//a[contains(text(),'Pricing &amp; Registration')])[2]</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_LEADERSHIP_FACULTY_SUBMENU</NAME>
+			<VALUE>xpath=(//a[contains(text(),'Faculty')])[2]</VALUE>
+		</SUB-MENU>	<SUB-MENU>
+			<NAME>_LEADERSHIP_COLLEGE_EQUIVALENCE_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-college-equivalence']/a</VALUE>
+		</SUB-MENU>	<SUB-MENU>
+			<NAME>_LEADERSHIP_ACCREDITATION_SUBMENU</NAME>
+			<VALUE>xpath=(//a[contains(text(),'Accreditation')])[2]</VALUE>
+		</SUB-MENU>	<SUB-MENU>
+			<NAME>_LEADERSHIP_PROFILES_SUBMENU</NAME>
+			<VALUE>xpath=(//a[contains(text(),'Profiles')])[2]</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_LEADER_CREATINGFROMSELF_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-creating-from-self']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_LEADERSHIP_RESOURCES_SUBMENU</NAME>
+			<VALUE>xpath=(//a[contains(text(),'Resources')])[2]</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_LEADER_FROMWITHIN_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-leader-from-within']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_THELEADERSHIP_WAY_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-the-leadership-way']/a</VALUE>
+		</SUB-MENU>
+		
+		<SUB-MENU>
+			<NAME>_CONNECT_LOCALLY_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-connect-locally']/a</VALUE>
+		</SUB-MENU>	
+		<SUB-MENU>
+			<NAME>_EVENTS_CALENDAR_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-events-calendar']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_2014_COACTIVE_SUMMIT_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-2014-summit']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_INSTITUTE_OF_COACHING_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-institute-of-coaching']/a</VALUE>
+		</SUB-MENU>
+		<SUB-MENU>
+			<NAME>_HENRY_ONTHE_RADIO_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-henry-on-the-radio']/a</VALUE>
+		</SUB-MENU>	
+		<SUB-MENU>
+			<NAME>_DISRUPT_YOURLIFE_GOODWAY_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-disrupt-your-life-in-a-good-way']/a</VALUE>
+		</SUB-MENU>	
+		<SUB-MENU>
+			<NAME>_COACTIVE_GLOBAL_NEWSLETTER_SUBMENU</NAME>
+			<VALUE>xpath=//*[@id='nav-sub-co-active-global-newsletter']/a</VALUE>
+		</SUB-MENU>
+		
+	</COMMON-ELEMENTS>
+</SITE>

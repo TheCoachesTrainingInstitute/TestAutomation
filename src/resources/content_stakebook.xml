@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SITE>
+	<NAME>STAKEBOOK</NAME>
+	<STAKE-HOME-PAGE>
+		<IMAGE>
+			<NAME>_HEADER_IMG</NAME>
+			<VALUE>xpath=//*[@id='branding']/a/img</VALUE>
+		</IMAGE>
+		<IMAGE>
+			<NAME>_AMAZON_IMG</NAME>
+			<VALUE>xpath=//*[@id='post-68']/div/p[13]/a/img</VALUE>
+		</IMAGE>
+		<LINK>
+			<NAME>STAKE_HOME</NAME>
+			<VALUE>xpath=//*[@id='menu-item-59']/a</VALUE>
+		</LINK>
+		<LINK>
+			<NAME>_ABT_AUTHORS_LINK</NAME>
+			<VALUE>xpath=//*[@id='menu-item-60']/a</VALUE>
+		</LINK>
+		<LINK> 
+			<NAME>_PRAISE_LINK</NAME>
+			<VALUE>xpath=//*[@id='menu-item-95']/a</VALUE>
+		</LINK>
+		<LINK>
+			<NAME>_MORE_LINK</NAME>
+			<VALUE>xpath=//*[@id='menu-item-61']/a</VALUE>
+		</LINK>
+		<LINK>
+			<NAME>_SEARCH</NAME>
+			<VALUE>id=s</VALUE>
+		</LINK>
+		<LINK> 
+			<NAME>_HEADER1</NAME>
+			<VALUE>xpath=//*[@id='post-68']/div/p[1]</VALUE>
+		</LINK> 
+		<LINK> 
+			<NAME>_RES_HEADER</NAME>
+			<VALUE>xpath=//*[@id='content']/header/h1</VALUE>
+		</LINK>
+		<TITLE>
+			<NAME>_HEADER1_TEXT</NAME>
+			<VALUE><![CDATA[The Stake: The Making of Leaders
+By Henry Kimsey-House and David Skibbins]]></VALUE>
+		</TITLE>
+		<TITLE>
+			<NAME>_ABT_AUTHORS_TITLE</NAME>
+			<VALUE>About the Authors | The Stake: The Making of Leaders</VALUE>
+		</TITLE>
+		<TITLE>
+			<NAME>_PRAISE_TITLE</NAME>
+			<VALUE>Praise | The Stake: The Making of Leaders</VALUE>
+		</TITLE>
+		<TITLE>
+			<NAME>_MORE_TITLE</NAME>
+			<VALUE>More | The Stake: The Making of Leaders</VALUE>
+		</TITLE>
+		<TITLE>
+			<NAME>_RESULTS_TITLE</NAME>
+			<VALUE>Henry Kimsey-House | Search Results | The Stake: The Making of Leaders</VALUE>
+		</TITLE>
+		<TITLE>
+			<NAME>_AMAZON_TITLE</NAME>
+			<VALUE>The Stake: The Making of Leaders: Henry Kimsey-House, David Skibbins: 9781940159003: Amazon.com: Books</VALUE>
+		</TITLE>
+			<TITLE>
+			<NAME>_STAKEBOOK_TITLE</NAME>
+			<VALUE>The Stake: The Making of Leaders</VALUE>
+		</TITLE>
+		<OTHERS>
+			<NAME>_FOOTER_COACTIVE_PRESS</NAME>
+			<VALUE>xpath=//*[@id='colophon']/div[2]/div[1]</VALUE>
+		</OTHERS>
+		<OTHERS>
+			<NAME>_FOOTER_COACTIVE_PRESS_INFO</NAME>
+			<VALUE>xpath=//*[@id='colophon']/div[2]/div[2]</VALUE>
+		</OTHERS>
+	</STAKE-HOME-PAGE>
+</SITE>
