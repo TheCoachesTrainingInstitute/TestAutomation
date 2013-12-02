@@ -13,7 +13,7 @@ import utils.CommonConstants;
 import utils.XMLUtils;
 import main.Common;
 
-public class CoactiveSummit extends Common{
+public class CoactiveSummitTest extends Common{
 	
 	private HashMap<String, String> hashMap;
 
