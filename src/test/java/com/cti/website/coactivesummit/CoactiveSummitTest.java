@@ -1,4 +1,4 @@
-package test;
+package test.java.com.cti.website.coactivesummit;
 
 import java.util.HashMap;
 import java.util.Set;
