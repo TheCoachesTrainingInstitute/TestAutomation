@@ -1,4 +1,4 @@
-package main;
+package test.java.com.cti.common;
 
 import java.util.ArrayList;
 

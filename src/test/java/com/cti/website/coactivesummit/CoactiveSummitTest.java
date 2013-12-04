@@ -3,15 +3,19 @@ package test.java.com.cti.website.coactivesummit;
 import java.util.HashMap;
 import java.util.Set;
 
+
+
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.w3c.dom.Element;
 
-import utils.CommonConstants;
-import utils.XMLUtils;
-import main.Common;
+import test.java.com.cti.common.Common;
+import test.java.com.cti.utils.CommonConstants;
+import test.java.com.cti.utils.XMLUtils;
+
+
 
 public class CoactiveSummitTest extends Common{
 	

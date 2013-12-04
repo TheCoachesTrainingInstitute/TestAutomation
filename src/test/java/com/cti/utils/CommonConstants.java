@@ -1,4 +1,4 @@
-package utils;
+package test.java.com.cti.utils;
 
 public class CommonConstants {
 	

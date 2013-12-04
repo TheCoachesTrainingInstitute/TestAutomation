@@ -1,4 +1,4 @@
-package utils;
+package test.java.com.cti.utils;
 
 import java.io.File;
 import java.util.HashMap;
