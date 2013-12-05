@@ -8,6 +8,15 @@
    	 	    <class name="test.java.com.cti.website.coactivemarketing.ReportsTest" />
    	 	    <class name="test.java.com.cti.website.coactivesales.HomepageTest" />
    	 	    <class name="test.java.com.cti.website.coactivesales.ReportsTest" />
+   	 	    <class name="test.java.com.cti.website.leadershipAdministration.AddDeleteTribesTest" />
+   	 	    <class name="test.java.com.cti.website.leadershipAdministration.LeadershipAdminTest" />
+   	 	    <class name="test.java.com.cti.website.leadershipAdministration.ManageAssistantsTest" />
+   	 	    <class name="test.java.com.cti.website.leadershipAdministration.ManageLeaderAssistantsTest" />
+   	 	    <class name="test.java.com.cti.website.leadershipAdministration.ManageLeadersTest" />
+   	 	    <class name="test.java.com.cti.website.leadershipAdministration.ManageParticipantsTest" />
+   	 	    <class name="test.java.com.cti.website.leadershipAdministration.ManageTribesTest" />
+   	 	    <class name="test.java.com.cti.website.leadershipAdministration.ViewLaunchedTribesTest" />
+   	 	    <class name="test.java.com.cti.website.stakebook.ThestakeBookTest" />
 		</classes>
     </test>
 </suite>

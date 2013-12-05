@@ -12,43 +12,15 @@ import test.java.com.cti.common.Common;
 import test.java.com.cti.utils.CommonConstants;
 import test.java.com.cti.utils.XMLUtils;
 
+/**
+ * This test covers the Coactive Sales website
+ * @author Preethi
+ */
+
 public class ReportsTest extends Common{
 	
 	int i=2;
 	private HashMap<String, String> hashMap;		
-
-	/* private String VIEW_REPORTS = "xpath=//*[@id='main']/div[4]/p[2]/a[1]"; 
-	private String MANAGE_AUDIOS = "xpath=//*[@id='main']/div[4]/p[2]/a[2]";
-	private String MANAGE_DOCUMENTS = "xpath=//*[@id='main']/div[4]/p[2]/a[3]";
-	private String ADD_NEWGROUP = "xpath=//*[@id='main']/div[4]/p[2]/a[4]";
-	private String VIEW_PARTICIPANT_PAGES = "xpath=//*[@id='main']/div[4]/p[2]/a[5]";
-	private String BREADCRUMB_HOME = "xpath=//*[@id='main']/div[2]/a[1]";
-	private String BREADCRUMB_LOGOUT = "xpath=//*[@id='main']/div[2]/a[2]";
-	private String DOWNLOAD_BUTTON = "xpath=//*[@id='main']/div[4]/p[6]/input";
-	private String TEXTAREA = "xpath=//*[@id='group-select']";
-	private String CHECKBOX = "xpath=//*[@id='group-select']";
-	private String BROWSE_BUTTON = "xpath=//*[@id='group-select']";
-	private String UPLOAD_BUTTON = "xpath=//*[@id='group-select']";
-	private String AUDIO_1 = "xpath=//*[@id='group-select']";
-	private String DELETE_BUTTON = "xpath=//*[@id='main']/div[4]/table/tbody/tr["+i+"]/td[3]/a";
-	private String DOWNLOAD_MP3 = "xpath=//*[@id='main']/div[4]/table/tbody/tr["+i+"]/td[3]/a";
-	private String DELETE_BUTTON_1 = "xpath=//*[@id='main']/div[4]/table/tbody/tr[2]/td[3]/a";
-	private String DELETE_BUTTON_2 = "xpath=//*[@id='main']/div[4]/table/tbody/tr[3]/td[3]/a";
-	private String DELETE_BUTTON_3 = "xpath=//*[@id='main']/div[4]/table/tbody/tr[4]/td[3]/a";
-	private String DOWNLOAD_MP3_1 = "xpath=//*[@id='main']/div[4]/table/tbody/tr[2]/td[2]/a";
-	private String DOWNLOAD_MP3_2 = "xpath=//*[@id='main']/div[4]/table/tbody/tr[3]/td[2]/a";
-	private String DOWNLOAD_MP3_3 = "xpath=//*[@id='main']/div[4]/table/tbody/tr[4]/td[2]/a";
-	private String DROPDOWN_MENU = "xpath=//*[@id='group-select']";
-	private String EMAIL_TEXTBOX = "xpath=//*[@id='signin_username']";
-	private String PASSWORD_TEXTBOX = "xpath=//*[@id='signin_password']";
-	private String LOGIN_BUTTON = "xpath=//*[@id='main']/div[3]/div/form/table/tbody/tr[3]/td[2]/input";
-	private String DATEPICKER = "xpath=//*[@id='datepicker']";
-	private String SAVE_NEWDATE_BUTTON = "xpath=//*[@id='main']/div[4]/form/p[2]/input";
-	private String LISTEN_TO_AUDIOS_IMAGE = "xpath=//*[@id='main']/div[4]/div/div[1]/a/img";
-	private String LISTEN_TO_AUDIOS_BUTTON = "xpath=//*[@id='main']/div[4]/div/div[1]/p/input";
-	private String GET_FORMS_IMAGE = "xpath=//*[@id='main']/div[4]/div/div[2]/a/img";
-	private String GET_FORMS_BUTTON = "xpath=//*[@id='main']/div[4]/div/div[2]/p/input";
-	private String LOGIN_BUTTON_IN_THANKYOU_PAGE = "xpath=//*[@id='main']/div[3]/p[3]"; */
 			
 	@BeforeClass
 	public void setup() throws Exception
@@ -67,7 +39,7 @@ public class ReportsTest extends Common{
 	@Test
 	public void viewReports(){
 		try {
-			driver.get(baseURL + CommonConstants.COACTIVE_SALES_HOME_URL);
+			driver.get(URL_COACHES + CommonConstants.COACTIVE_SALES_HOME_URL);
 			type(hashMap.get(CommonConstants.EMAIL_TEXTBOX),"ping@me.com");
 			type(hashMap.get(CommonConstants.PASSWORD_TEXTBOX),"abc123");
 			click(hashMap.get(CommonConstants.LOGIN_SALES));
@@ -90,7 +62,7 @@ public class ReportsTest extends Common{
 	@Test(dependsOnMethods = "viewReports") 
 	public void manageAudios(){
 		try {
-			driver.get(baseURL + CommonConstants.COACTIVE_SALES_HOME_URL);
+			driver.get(URL_COACHES + CommonConstants.COACTIVE_SALES_HOME_URL);
 			type(hashMap.get(CommonConstants.EMAIL_TEXTBOX),"ping@me.com");
 			type(hashMap.get(CommonConstants.PASSWORD_TEXTBOX),"abc123");
 			click(hashMap.get(CommonConstants.LOGIN_SALES));

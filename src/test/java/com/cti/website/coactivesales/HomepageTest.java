@@ -1,16 +1,19 @@
 package test.java.com.cti.website.coactivesales;
 
 import java.util.HashMap;
-
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import org.w3c.dom.Element;
-
 import test.java.com.cti.common.Common;
 import test.java.com.cti.utils.CommonConstants;
 import test.java.com.cti.utils.XMLUtils;
+
+/**
+ * This test covers the Coactive Sales website
+ * @author Preethi
+ */
 
 public class HomepageTest extends Common{
 	
@@ -33,7 +36,7 @@ public class HomepageTest extends Common{
 	@Test
 	public void verifyLinks(){
 		try {
-			driver.get(baseURL + CommonConstants.COACTIVE_SALES_HOME_URL);
+			driver.get(URL_COACHES + CommonConstants.COACTIVE_SALES_HOME_URL);
 			Assert.assertTrue(verifyElementPresent(hashMap.get(CommonConstants.EMAIL_TEXTBOX)));
 			Assert.assertTrue(verifyElementPresent(hashMap.get(CommonConstants.PASSWORD_TEXTBOX)));
 			Assert.assertTrue(verifyElementPresent(hashMap.get(CommonConstants.LOGIN_SALES)));

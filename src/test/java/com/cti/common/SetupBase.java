@@ -15,6 +15,13 @@ public class SetupBase {
 	protected String baseURL;
 	
 	private final int _TIMEOUT = 30; 
+	
+	// urls
+	protected final String URL_SUMMIT = "https://" + System.getProperty("summit.url") + "/";
+	protected final String URL_COACHES = "https://" + System.getProperty("coaches.url") + "/";
+	protected final String URL_LEADERSHIP = "https://" + System.getProperty("leadership.url") + "/";
+	protected final String URL_STAKEBOOK = "https://" + System.getProperty("stakebook.url") + "/";
+	
 	/**
 	 * Command to wait for page to load
 	 */
@@ -25,9 +32,9 @@ public class SetupBase {
 	}
 
 	protected void setup() throws Exception{
-		System.getProperty("summit.url", "coaches.url");
+		
 		baseURL = "https://" + System.getProperty("summit.url", "coaches.url") + "/";
-  		//baseURL = "http://www.coactivesummit.com";
+		//baseURL = "http://www.coactivesummit.com";
   		driver.get(baseURL);	
   		
 	}

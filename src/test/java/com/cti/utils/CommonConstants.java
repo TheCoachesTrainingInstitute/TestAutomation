@@ -35,14 +35,14 @@ public class CommonConstants {
 	public static final String LEADERSHIP_LAUNCHPAD_TAG	 	  = "LEADERSHIP-LAUNCHPAD-PAGE";
 	
 	// Website Name and URL's
-	public static final String SURVEY_URL		  		  = "http://www.thecoaches.com/surveys/main/login";
+	public static final String SURVEY_URL		  		  = "surveys/main/login";
 	public static final String STAKEBOOK_URL	   		  = "http://www.thestakebook.com/";
 	public static final String SUMMIT_URL	  	    	  = "http://www.coactivesummit.com/";
 	public static final String BLOG_URL	 	 	   		  = "http://www.thecoaches.com/blog/";
-	public static final String COACTIVE_MARK_HOME_URL	  = "/coactive-marketing-class/main/login";
-	public static final String COACTIVE_SALES_HOME_URL    = "/coactive-sales-class/main/login";
-	public static final String LEADERSHIP_ADMIN_URL 	  = "http://ww2.thecoaches.com/launchpad/index.php/";
-	public static final String LEADERSHIP_LAUNCHPAD_URL	  = "http://www.thecoaches.com/docs/leadership/launchpad/index.html";
+	public static final String COACTIVE_MARK_HOME_URL	  = "coactive-marketing-class/main/login";
+	public static final String COACTIVE_SALES_HOME_URL    = "coactive-sales-class/main/login";
+	public static final String LEADERSHIP_ADMIN_URL 	  = "launchpad/index.php/";
+	public static final String LEADERSHIP_LAUNCHPAD_URL	  = "/docs/leadership/launchpad/index.html";
 	
 	//Constants for survey page
 	public static final String SURVEY_EMAIL_ID_VALUE  = "ping@me.com";

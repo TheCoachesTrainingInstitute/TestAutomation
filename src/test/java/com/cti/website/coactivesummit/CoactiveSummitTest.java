@@ -2,20 +2,19 @@ package test.java.com.cti.website.coactivesummit;
 
 import java.util.HashMap;
 import java.util.Set;
-
-
-
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.w3c.dom.Element;
-
 import test.java.com.cti.common.Common;
 import test.java.com.cti.utils.CommonConstants;
 import test.java.com.cti.utils.XMLUtils;
 
-
+/**
+ * This test covers the Coactive Summit website
+ * @author Preethi
+ */
 
 public class CoactiveSummitTest extends Common{
 	
@@ -37,17 +36,11 @@ public class CoactiveSummitTest extends Common{
 		hashMap = XMLUtils.getValues(root1,CommonConstants.COMMON_ELEMENTS_TAG,hm);
 	}
 	
-	/**
-	 * This test covers the Coactive Summit website
-	 * @author Preethi
-	 */
-	
 	 // Verifying the functionality of Header links
 	@Test
 	public void headerLinks(){	
 		try {
-			//driver.get(CommonConstants.SUMMIT_URL);
-			
+			driver.get(URL_SUMMIT);
 			//Verifying Title
 			Assert.assertTrue(verifyElementPresent(hashMap.get(CommonConstants._SUMMIT_LOGO)));
 			waitForElementPresent(hashMap.get(CommonConstants._HEADER_LINK));
@@ -124,7 +117,7 @@ public class CoactiveSummitTest extends Common{
 	@Test (dependsOnMethods = "headerLinks", alwaysRun =true) 
 	public void otherLinks(){
 		try {
-			driver.get(CommonConstants.SUMMIT_URL);
+			driver.get(URL_SUMMIT);
 			click(hashMap.get(CommonConstants.SUMMIT_HOME));
 			waitForElementPresent(hashMap.get(CommonConstants._SUMMIT_LOGO));
 			Assert.assertTrue(verifyElementPresent(hashMap.get(CommonConstants._HEADER_LINK)));
@@ -195,7 +188,7 @@ public class CoactiveSummitTest extends Common{
 			@Test (dependsOnMethods = "otherLinks", alwaysRun =true) 
 				public void footer(){
 				try {
-						driver.get(CommonConstants.SUMMIT_URL);
+						driver.get(URL_SUMMIT);
 						Assert.assertTrue(verifyElementPresent(hashMap.get(CommonConstants._SUMMIT_LOGO)));
 
 						//Checking the Footer links 

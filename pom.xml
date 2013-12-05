@@ -160,6 +160,12 @@
                     <systemPropertyVariables>
                          <coaches.url>${coaches.url}</coaches.url>
                     </systemPropertyVariables>
+                     <systemPropertyVariables>
+                         <leadership.url>${leadership.url}</leadership.url>
+                    </systemPropertyVariables>
+                     <systemPropertyVariables>
+                         <stakebook.url>${stakebook.url}</stakebook.url>
+                    </systemPropertyVariables>                    
                     <useFile>true</useFile>
                     <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
                 </configuration>
