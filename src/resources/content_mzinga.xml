@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SITE>
 	<NAME>STAKEBOOK</NAME>
-	<STAKE-HOME-PAGE>
+	<MZINGA-HOME-PAGE>
 		<IMAGE>
 			<NAME>_HEADER_IMG</NAME>
 			<VALUE>xpath=//*[@id='branding']/a/img</VALUE>
@@ -75,5 +75,5 @@ By Henry Kimsey-House and David Skibbins]]></VALUE>
 			<NAME>_FOOTER_COACTIVE_PRESS_INFO</NAME>
 			<VALUE>xpath=//*[@id='colophon']/div[2]/div[2]</VALUE>
 		</OTHERS>
-	</STAKE-HOME-PAGE>
+	</MZINGA-HOME-PAGE>
 </SITE>

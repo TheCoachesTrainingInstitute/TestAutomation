@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SITE>
+	<NAME>KARENHUFFPOSTBLOG</NAME>
+		<KAREN-BLOG>			
+			<LINK>
+				<NAME>_GUEST_BLOG_KAREN</NAME>
+				<VALUE>xpath=//*[@id='sidebar']/ul/li[1]/p</VALUE> 
+			</LINK>	
+			<BUTTON>
+				<NAME>_REC_ENT</NAME>
+				<VALUE>xpath=//*[@id='recent-posts-2']/h2</VALUE>
+			</BUTTON>
+			<LINK>
+				<NAME>_REC_COMMT</NAME>
+				<VALUE>xpath=//*[@id='recent-comments-2']/h2</VALUE>
+			</LINK>
+			<LINK>
+				<NAME>_REC_POST1</NAME>
+				<VALUE>xpath=//*[@id='recent-posts-2']/ul/li/a</VALUE>
+			</LINK>
+			<LINK>
+				<NAME>_ARC</NAME>
+				<VALUE>xpath=//*[@id='archives-2']/h2</VALUE>
+			</LINK>
+			<LINK>
+			<NAME>_WHY_CTI_BLOG</NAME>
+			<VALUE>xpath=//*[@id='main-nav']/li[1]/a</VALUE>
+			</LINK>
+			<LINK>
+			<NAME>_COACH_TRAINING_BLOG</NAME>
+			<VALUE>xpath=//*[@id='main-nav']/li[2]/a</VALUE>
+			</LINK>
+			<LINK>
+			<NAME>_LEADERSHIP_BLOG</NAME>
+			<VALUE>xpath=//*[@id='main-nav']/li[3]/a</VALUE>
+			</LINK>
+			<LINK>
+			<NAME>_FOR_ORG_BLOG</NAME>
+			<VALUE>xpath=//*[@id='main-nav']/li[4]/a</VALUE>
+			</LINK>
+			<LINK>
+			<NAME>_OUR_FAC_BLOG</NAME>
+			<VALUE>xpath=//*[@id='main-nav']/li[5]/a</VALUE>
+			</LINK>
+			<LINK>
+			<NAME>_RESOURCES_BLOG</NAME>
+			<VALUE>xpath=//*[@id='main-nav']/li[6]/a</VALUE>
+			</LINK>
+	</KAREN-BLOG>
+</SITE>
+
