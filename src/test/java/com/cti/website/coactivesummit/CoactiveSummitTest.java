@@ -41,6 +41,7 @@ public class CoactiveSummitTest extends Common{
 	public void headerLinks(){	
 		try {
 			driver.get(URL_SUMMIT);
+			System.out.println("Launched Summit page");
 			//Verifying Title
 			Assert.assertTrue(verifyElementPresent(hashMap.get(CommonConstants._SUMMIT_LOGO)));
 			waitForElementPresent(hashMap.get(CommonConstants._HEADER_LINK));
