@@ -155,7 +155,10 @@
                     </suiteXmlFiles>
                     <environmentVariables/>
                     <systemPropertyVariables>
-                         <customerWebsite.url>${customerWebsite.url}</customerWebsite.url>
+                         <summit.url>${summit.url}</summit.url>
+                    </systemPropertyVariables>
+                    <systemPropertyVariables>
+                         <coaches.url>${coaches.url}</coaches.url>
                     </systemPropertyVariables>
                     <useFile>true</useFile>
                     <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>

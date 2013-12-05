@@ -25,9 +25,9 @@ public class SetupBase {
 	}
 
 	protected void setup() throws Exception{
-		//System.getProperty("customerWebsite.url", "crportal.sunrunhome.com");
-		//baseURL = "https://" + System.getProperty("customerWebsite.url", "crportal.sunrunhome.com") + "/";
-  		baseURL = "http://www.coactivesummit.com";
+		System.getProperty("summit.url", "coaches.url");
+		baseURL = "https://" + System.getProperty("summit.url", "coaches.url") + "/";
+  		//baseURL = "http://www.coactivesummit.com";
   		driver.get(baseURL);	
   		
 	}

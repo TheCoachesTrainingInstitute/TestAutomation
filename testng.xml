@@ -4,6 +4,11 @@
 	 <test verbose="2" name="test.java.com.cti.website" annotations="JDK">
    	 	<classes>
    	 	    <class name="test.java.com.cti.website.coactivesummit.CoactiveSummitTest" />
+   	 	    <class name="test.java.com.cti.website.coactivemarketing.HomepageTest" />
+   	 	    <class name="test.java.com.cti.website.coactivemarketing.ReportsTest" />
+   	 	    <class name="test.java.com.cti.website.coactivesales.HomepageTest" />
+   	 	    <class name="test.java.com.cti.website.coactivesales.ReportsTest" />
 		</classes>
     </test>
 </suite>
+

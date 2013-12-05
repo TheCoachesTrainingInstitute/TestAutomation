@@ -46,7 +46,7 @@ public class CoactiveSummitTest extends Common{
 	@Test
 	public void headerLinks(){	
 		try {
-			driver.get(CommonConstants.SUMMIT_URL);
+			//driver.get(CommonConstants.SUMMIT_URL);
 			
 			//Verifying Title
 			Assert.assertTrue(verifyElementPresent(hashMap.get(CommonConstants._SUMMIT_LOGO)));

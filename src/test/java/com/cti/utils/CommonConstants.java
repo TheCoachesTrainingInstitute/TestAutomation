@@ -13,25 +13,36 @@ public class CommonConstants {
 	public static final String xmlFilePath_blog  	 = "src/resources/content_blog.xml";
 	public static final String xmlFilePath_coactivemrkt   = "src/resources/content_coactivemarketing.xml";
 	public static final String xmlFilePath_coactivesales  = "src/resources/content_coactivesales.xml";
+	public static final String xmlFilePath_karenhuffpostblog  = "src/resources/content_karenhuffpostblog.xml";
+	public static final String xmlFilePath_leadershipAdmin  = "src/resources/content_leadershipAdmin.xml";
+	public static final String xmlFilePath_leadershipLaunchpad  = "src/resources/content_leadershipLaunchpad.xml";
 	public static final String NAME = "NAME";
 	public static final String VALUE = "VALUE";
 	
-	//Websites and their associated XML tags 	
+	// XML tags 	
 	public static final String COMMON_ELEMENTS_TAG = "COMMON-ELEMENTS";
 	public static final String SURVEY_LOGIN_TAG    = "SURVEY-LOGIN-PAGE";
 	public static final String SURVEY_HOME_TAG     = "SURVEY-HOME-PAGE";
 	public static final String STAKE_HOME_TAG      = "STAKE-HOME-PAGE";
 	public static final String SUMMIT_HOME_TAG     = "SUMMIT-PAGE";
 	public static final String BLOG_TAG		       = "BLOG-PAGE";
-	public static final String COACTIVE_MARK_HOME_TAG	  = "HOME-PAGE";
-	public static final String COACTIVE_MARK_REPORTS_TAG  = "REPORTS";
-	public static final String COACTIVE_SALES_HOME_TAG	  = "HOME-PAGE";
-	public static final String SURVEY_URL		   = "http://www.thecoaches.com/surveys/main/login";
-	public static final String STAKEBOOK_URL	   = "http://www.thestakebook.com/";
-	public static final String SUMMIT_URL	  	   = "http://www.coactivesummit.com/";
-	public static final String BLOG_URL	 	 	   = "http://www.thecoaches.com/blog/";
-	public static final String COACTIVE_MARK_HOME_URL  = "http://www.thecoaches.com/coactive-marketing-class/main/login";
-	public static final String COACTIVE_SALES_HOME_URL  = "http://www.thecoaches.com/coactive-sales-class/main/login";
+	public static final String KAREN_BLOG_TAG		          = "KAREN-BLOG";
+	public static final String COACTIVE_MARK_HOME_TAG	 	  = "HOME-PAGE";
+	public static final String COACTIVE_MARK_REPORTS_TAG 	  = "REPORTS";
+	public static final String COACTIVE_SALES_HOME_TAG		  = "HOME-PAGE";
+	public static final String LEADERSHIP_ADMIN_HOME_TAG	  = "LEADERSHIP-ADMIN-HOME-PAGE";
+	public static final String LEADERSHIP_ADMIN_CHILD_TAG	  = "CHILD-PAGES";
+	public static final String LEADERSHIP_LAUNCHPAD_TAG	 	  = "LEADERSHIP-LAUNCHPAD-PAGE";
+	
+	// Website Name and URL's
+	public static final String SURVEY_URL		  		  = "http://www.thecoaches.com/surveys/main/login";
+	public static final String STAKEBOOK_URL	   		  = "http://www.thestakebook.com/";
+	public static final String SUMMIT_URL	  	    	  = "http://www.coactivesummit.com/";
+	public static final String BLOG_URL	 	 	   		  = "http://www.thecoaches.com/blog/";
+	public static final String COACTIVE_MARK_HOME_URL	  = "/coactive-marketing-class/main/login";
+	public static final String COACTIVE_SALES_HOME_URL    = "/coactive-sales-class/main/login";
+	public static final String LEADERSHIP_ADMIN_URL 	  = "http://ww2.thecoaches.com/launchpad/index.php/";
+	public static final String LEADERSHIP_LAUNCHPAD_URL	  = "http://www.thecoaches.com/docs/leadership/launchpad/index.html";
 	
 	//Constants for survey page
 	public static final String SURVEY_EMAIL_ID_VALUE  = "ping@me.com";
@@ -107,12 +118,12 @@ public class CommonConstants {
 	//Constants for Blog website
 
 	public static final String _BLOG_HOME 			  = "_BLOG_HOME";
-	public static final String _COACTIVE_NETWORK_LINK = "_COACTIVE_NETWORK_LINK";
-	public static final String _FIND_COACH_LINK		  = "_FIND_COACH_LINK";
-	public static final String _ENEWSLETTER_LINK  	  = "_ENEWSLETTER_LINK";
-	public static final String _BLOG_LINK	  		  = "_BLOG_LINK";
-	public static final String _PRESS_ROOM			  = "_PRESS_ROOM";
-	public static final String _CONTACT_US_LINK		  = "_CONTACT_US_LINK";
+	public static final String _COACTIVE_NETWORK_LINK_BLOG = "_COACTIVE_NETWORK_LINK";
+	public static final String _FIND_COACH_LINK_BLOG		  = "_FIND_COACH_LINK";
+	public static final String _ENEWSLETTER_LINK_BLOG  	  = "_ENEWSLETTER_LINK";
+	public static final String _BLOG	  		  		  = "_BLOG";
+	public static final String _PRESS_ROOM_BLOG			  = "_PRESS_ROOM";
+	public static final String _CONTACT_US_LINK_BLOG		  = "_CONTACT_US_LINK";
 	public static final String _CTI_INT		 		  = "_CTI_INT";
 	public static final String _GUEST_BLOG		 	  = "_GUEST_BLOG";
 	public static final String _SUB_EMAIL			  = "_SUB_EMAIL";
@@ -161,27 +172,143 @@ public class CommonConstants {
 	public static final String MANAGE_AUDIOS_SALES 		   = "MANAGE_AUDIOS_SALES";	
 	public static final String MANAGE_DOCUMENTS_SALES	   = "MANAGE_DOCUMENTS_SALES";
 	public static final String ADD_NEWGROUP_STARTING_SALES = "ADD_NEWGROUP_STARTING_SALES";
-	public static final String LOGIN_SALES 		   = "LOGIN_SALES";
+	public static final String LOGIN_SALES 		   		   = "LOGIN_SALES";
 	public static final String VIEW_PARTICIPANT_PAGES_SALES= "VIEW_PARTICIPANT_PAGES_SALES";
 	public static final String NOT_ABLE_TO_LOGIN_LINK_SALES= "NOT_ABLE_TO_LOGIN_LINK_SALES"; 
-	public static final String ERROR_XPATH_SALES = "ERROR_XPATH_SALES";
+	public static final String ERROR_XPATH_SALES		   = "ERROR_XPATH_SALES";
+	public static final String DROPDOWN_MENU			   = "DROPDOWN_MENU"; 
+	public static final String DOWNLOAD_CSV				   = "DOWNLOAD_CSV";
+	
+	//Constants for Karen-Huffpost Blog website
+
+	public static final String _GUEST_BLOG_KAREN 			  = "_GUEST_BLOG_KAREN";
+	public static final String _REC_ENT_KAREN 				  = "_REC_ENT";
+	public static final String _REC_COMMT					  = "_REC_COMMT";
+	public static final String _ARC_KAREN  					  = "_ARC";
+	public static final String _REC_POST1_KAREN	  			  = "_REC_POST1";
+	public static final String _WHY_CTI_BLOG				  = "_WHY_CTI_BLOG";
+	public static final String _COACH_TRAINING_BLOG			  = "_COACH_TRAINING_BLOG";
+	public static final String _LEADERSHIP_BLOG 			  = "_LEADERSHIP_BLOG";
+	public static final String _FOR_ORGANIZATIONS_BLOG 		  = "_FOR_ORG_BLOG";
+	public static final String _OUR_FAC_BLOG 				  = "_OUR_FAC_BLOG";
+	public static final String _RESOURCES_BLOG 				  = "_RESOURCES_BLOG";
+		
+
+	//Constants for Leadership Admin website
+
+	public static final String _SIGNIN_BTTN_LEADERSHIP 			  = "_SIGNIN_BTTN_LEADERSHIP";
+	public static final String _LEADERSHIP_ADM 				 	  = "_LEADERSHIP_ADM";
+	public static final String _LEADERSHIP_MNGT					  = "_LEADERSHIP_MNGT";
+	public static final String _MNG_TRIBES  					  = "_MNG_TRIBES";
+	public static final String _ADD_TRIBES	  			  		  = "_ADD_TRIBES";
+	public static final String _VIEW_LAUNCHED_TRIBES			  = "_VIEW_LAUNCHED_TRIBES";
+	public static final String _MNG_PARTS			  			  = "_MNG_PARTS";
+	public static final String _MNG_ASSTS 			  			  = "_MNG_ASSTS";
+	public static final String _MNG_LEADERS 		  			  = "_MNG_LEADERS";
+	public static final String _MNG_LEADERSHIP_ASST 			  = "_MNG_LEADERSHIP_ASST";
+	public static final String _SIGNOUT 				  		  = "_SIGNOUT";
+	public static final String _SIGNINFORM 				  		  = "_SIGNINFORM";
+	public static final String _ADM_HOME 				  		  = "_ADM_HOME";
+	public static final String _LEADERSHIP_ADMIN_TRIBE 		  	  = "_LEADERSHIP_ADMIN_TRIBE";
+	public static final String _NAME 				  	 		  = "_NAME";
+	public static final String _QUESTIONNAIRE 				  	  = "_QUESTIONNAIRE";
+	public static final String _MED 				  	  		  = "_MED";
+	public static final String _ADD_LEADER 				  	 	  = "_ADD_LEADER";
+	public static final String _ADD_PART 				  	  	  = "_ADD_PART";
+	public static final String _ADD_ASST 				  	  	  = "_ADD_ASST";
+	public static final String _NAME_OF_PART 				  	  = "_NAME_OF_PART";
+	public static final String _DIET 				  	  		  = "_DIET";
+	public static final String _EX_QUESTIONNAIRE 				  = "_EX_QUESTIONNAIRE";
+	public static final String _EX_MED 				  	  		  = "_EX_MED";
+	public static final String _EX_DIET 				  	  	  = "_EX_DIET";
+	public static final String _EX_INF 				  	  		  = "_EX_INF";
+	public static final String _PART_NAME 				  	 	  = "_PART_NAME";
+	public static final String _LEAD_NAME 				  	 	  = "_LEAD_NAME";
+	public static final String _LEADER_PART 				  	  = "_LEADER_PART";
+	public static final String _FIRST_NAME 				  	  	  = "_FIRST_NAME";
+	public static final String _LAST_NAME 				  	 	  = "_LAST_NAME";
+	public static final String _EMAIL 					  	      = "_EMAIL";
+	public static final String _GENDER 					  	  	  = "_GENDER";
+	public static final String _AGE 					  	  	  = "_AGE";
+	public static final String _SAVE 					  		  = "_SAVE";
+	public static final String _MOD_QUESTIONNAIRE 			  	  = "_MOD_QUESTIONNAIRE";
+	public static final String _MOD_MED 					  	  = "_MOD_MED";
+	public static final String _MOD_DIET 				  		  = "_MOD_DIET";
+	public static final String _QUESITONNAIRE_PDF 			  	  = "_QUESITONNAIRE_PDF";
+	public static final String _MP_NAME 				  		  = "_MP_NAME";
+	public static final String _MP_QUEST 				  		  = "_MP_QUEST";
+	public static final String _MP_MED 				  			  = "_MP_MED";
+	public static final String _MP_DIET 				  		  = "_MP_DIET";
+	public static final String _AGREED 				  			  = "_AGREED";
+	public static final String _CURRENT_TRIBES 				  	  = "_CURRENT_TRIBES";
+	public static final String _CT_TNAME 				  		  = "_CT_TNAME";
+	public static final String _LOCATION 				  		  = "_LOCATION";
+	public static final String _RETREAT1_DATE 				  	  = "_RETREAT1_DATE";
+	public static final String _FMID 				  		  	  = "_FMID";
+	public static final String _DEL 				  			  = "_DEL";
+	public static final String _LAUCNHED_TRIBES 		  		  = "_LAUCNHED_TRIBES";
+	public static final String _LT_TNAME 		  				  = "_LT_TNAME";
+	public static final String _L_LOCATION 		  				  = "_L_LOCATION";
+	public static final String _L_RETREAT1_DATE 		  		  = "_L_RETREAT1_DATE";
+	public static final String _L_FMID 		  					  = "_L_FMID";
+	public static final String _L_DEL 		  					  = "_L_DEL";
+	public static final String _ADD_TRIBE 		  				  = "_ADD_TRIBE";
+	public static final String _A_TNAME 		  				  = "_A_TNAME";
+	public static final String _A_LOCATION 		  				  = "_A_LOCATION";
+	public static final String _A_RETREAT1_DATE 		  		  = "_A_RETREAT1_DATE";
+	public static final String _A_FMID 		  					  = "_A_FMID";
+	public static final String _ADD 		  					  = "_ADD";
+	public static final String _LT_EX_QUESTIONNAIRE 			  = "_LT_EX_QUESTIONNAIRE";
+	public static final String _LT_EX_MED 		  				  = "_LT_EX_MED";
+	public static final String _LT_EX_DIET 		  		  		  = "_LT_EX_DIET";
+	public static final String _LT_EX_INF 		  		  		  = "_LT_EX_INF";
+	public static final String _LEADER_NAME 		  		  	  = "_LEADER_NAME";
+	public static final String _SEARCH_BOX 		  		  		  = "_SEARCH_BOX";
+	public static final String _GO_LEADERSHIP 		  		  	  = "_GO";
+	public static final String _EXP_ANNUAL_ASST 		  		  = "_EXP_ANNUAL_ASST";
+	public static final String _ANDREA 		  		  			  = "_ANDREA";
+	public static final String _ALL_PARTS 		  		  		  = "_ALL_PARTS";
+	public static final String _VIEW_ALL_PARTS 		  		 	  = "_VIEW_ALL_PARTS";
+	public static final String _SIGNOUT_HOME 					  = "_SIGNOUT_HOME";
+	public static final String _LEAD_ASST_NAME					  = "_LEAD_ASST_NAME";
+	
+	//Constants for Leadership Launchpad website
+
+	public static final String _US_WEST_COAST_LINK 				  = "_US_WEST_COAST_LINK";
+	public static final String _US_EAST_COAST_LINK 				  = "_US_EAST_COAST_LINK";
+	public static final String _SPAIN_LINK						  = "_SPAIN_LINK";
+	public static final String _ISREAL_LINK  				  	  = "_ISREAL_LINK";
+	public static final String _RETURN_COACTIVE_LEADERSHIP_LINK	  = "_RETURN_COACTIVE_LEADERSHIP_LINK";
+	public static final String _RETURN_LEADERSHIP_HOME_LINK		  = "_RETURN_LEADERSHIP_HOME_LINK";
+	public static final String _COACTIVE_LEADERSHIP			  	  = "_COACTIVE_LEADERSHIP";
+	public static final String _COACTIVE_IMG 			  		  = "_COACTIVE_IMG";
+	public static final String _LOGIN 		  					  = "_LOGIN";
+	public static final String _GO_LAUNCHPAD 				 	  = "_GO";
+	public static final String _LEADERSHIP_JOURNEY 				  = "_LEADERSHIP_JOURNEY";
+	public static final String _NORTHERNCAL 			  		  = "_NORTHERNCAL";
+	public static final String _STEP1 							  = "_STEP1";
+	public static final String _STEP2 							  = "_STEP2";
+	public static final String _STEP3 							  = "_STEP3";
+	public static final String _MED_FORM_LINK 					  = "_MED_FORM_LINK";
+	public static final String _FORM_HEADING 					  = "_FORM_HEADING";
+	public static final String _BACKGROUND_FORM_LINK 			  = "_BACKGROUND_FORM_LINK";
+	public static final String _PDF_LINK 						  = "_PDF_LINK";
+	public static final String _WORD_LINK 						  = "_WORD_LINK";
+	public static final String _TRAVEL_LINK 					  = "_TRAVEL_LINK";
+	public static final String _DIRECTIONS_LINK 				  = "_DIRECTIONS_LINK";
+	public static final String _DIETARY_FORM 					  = "_DIETARY_FORM";
 	
 	/* Common constants to ALL websites */
 
 	public static final String _HEADER_IMG			      = "_HEADER_IMG";
 	public static final String _C_HOME					  = "_C_HOME";
-	public static final String HOMEPAGE_TITLE			  = "HOMEPAGE_TITLE"; 
-	public static final String E_NEWSLETTER_TITLE 		  = "E_NEWSLETTER_TITLE";
-	public static final String CONTACT_US_TITLE 		  = "CONTACT_US_TITLE";
-	public static final String _MYCART_TITLE 			  = "_MYCART_TITLE";
-	public static final String _CHECKOUT_TITLE 			  = "_CHECKOUT_TITLE";
-	public static final String _BLOG_TITLE 				  = "_BLOG_TITLE";
-	public static final String _PRESS_TITLE 			  = "_PRESS_TITLE";
-	public static final String COACTIVE_TITLE 			  = "COACTIVE_TITLE";
-	public static final String FIND_A_COACH_TITLE 		  = "FIND_A_COACH_TITLE";
-	public static final String _CTI_INT_TITLE			  = "_CTI_INT_TITLE";
-	public static final String _MZINGA_TITLE			  = "_MZINGA_TITLE";
-	public static final String _AMBASSADOR_TITLE		  = "_AMBASSADOR_TITLE";
+	public static final String _COACTIVE_NETWORK_LINK 	  = "_COACTIVE_NETWORK_LINK";
+	public static final String _FIND_COACH_LINK		      = "_FIND_COACH_LINK";
+	public static final String _ENEWSLETTER_LINK  	      = "_ENEWSLETTER_LINK";
+	public static final String _PRESS_ROOM			      = "_PRESS_ROOM";
+	public static final String _CONTACT_US_LINK		      = "_CONTACT_US_LINK";
+	public static final String _CTI_INT_LINK 		      = "_CTI_INT_LINK";
+	public static final String _BLOG_LINK	  		      = "_BLOG_LINK";
 	public static final String EMAIL_TEXTBOX 			  = "EMAIL_TEXTBOX";
 	public static final String PASSWORD_TEXTBOX 	 	  = "PASSWORD_TEXTBOX";
 	public static final String LOGIN_BUTTON 		 	  = "LOGIN_BUTTON";
@@ -193,11 +320,27 @@ public class CommonConstants {
 	public static final String ICF_LOGO 			      = "ICF_LOGO";
 	public static final String _B_HOME_LINK 			  = "_B_HOME_LINK";
 	public static final String _B_LINK2 				  = "_B_LINK2";
+	public static final String _B_LINK3 ="_B_LINK3";
 	public static final String BREADCRUMB_HOME_MAR	  = "BREADCRUMB_HOME_MAR";
 	public static final String BREADCRUMB_LOGOUT_MAR  = "BREADCRUMB_LOGOUT_MAR";
 	public static final String ERROR_XPATH				  = "ERROR_XPATH";
 	public static final String ERROR_MESSAGE  			  = "ERROR_MESSAGE"; 
 	public static final String ERROR_MESSAGE_MRKT  	 	  = "ERROR_MESSAGE_MRKT"; 
+	
+	public static final String HOMEPAGE_TITLE			  = "HOMEPAGE_TITLE"; 
+	public static final String COACHTRAINING_TITLE		  = "COACHTRAINING_TITLE"; 
+	public static final String E_NEWSLETTER_TITLE 		  = "E_NEWSLETTER_TITLE";
+	public static final String CONTACT_US_TITLE 		  = "CONTACT_US_TITLE";
+	public static final String _MYCART_TITLE 			  = "_MYCART_TITLE";
+	public static final String _CHECKOUT_TITLE 			  = "_CHECKOUT_TITLE";
+	public static final String _BLOG_TITLE 				  = "_BLOG_TITLE";
+	public static final String _PRESS_TITLE 			  = "_PRESS_TITLE";
+	public static final String COACTIVE_TITLE 			  = "COACTIVE_TITLE";
+	public static final String FIND_A_COACH_TITLE 		  = "FIND_A_COACH_TITLE";
+	public static final String _CTI_INT_TITLE			  = "_CTI_INT_TITLE";
+	public static final String _MZINGA_TITLE			  = "_MZINGA_TITLE";
+	public static final String _AMBASSADOR_TITLE		  = "_AMBASSADOR_TITLE";
+	
 	public static final String _ABOUT_CTI_SUBMENU 		  = "_ABOUT_CTI_SUBMENU";
 	public static final String _WHAT_IS_COACTIVE_SUBMENU  = "_WHAT_IS_COACTIVE_SUBMENU";
 	public static final String _MANAGEMENT_TEAM_SUBMENU   = "_MANAGEMENT_TEAM_SUBMENU";
@@ -251,6 +394,8 @@ public class CommonConstants {
 	public static final String _LEADERSHIP								 = "_LEADERSHIP";
 	public static final String _FOR_ORGANIZATIONS						 = "_FOR_ORGANIZATIONS";
 	public static final String _COMMUNITY								 = "_COMMUNITY";
+	public static final String _RESOURCES								 = "_RESOURCES";
+	public static final String _OUR_FAC 								 = "_OUR_FAC";
 	public static final String _ABOUT_CTI_TITLE							 = "_ABOUT_CTI_TITLE";
 	public static final String _COACTIVE_TITLE							 = "_COACTIVE_TITLE";
 	public static final String _MNGT_TITLE								 = "_MNGT_TITLE";
@@ -293,7 +438,15 @@ public class CommonConstants {
 	public static final String JOBS_TITLE							 	 = "JOBS_TITLE";
 	public static final String _CART_LINK							 	 = "_CART_LINK";
 	public static final String _CHECKOUT_LINK							 = "_CHECKOUT_LINK";
-
-
+	public static final String _HOME_LINK								 = "_HOME_LINK";
 	
+	/* Constants for Footer Wrapper */
+	
+	public static final String _FOOTER_SIGNUP_NEWS						 = "_FOOTER_SIGNUP_NEWS";
+	public static final String _CTI									 	 = "_CTI";
+	public static final String _SPL									 	 = "_SPL";
+	public static final String _NEWS									 = "_NEWS";
+	public static final String _BLOG_FOOTER									 = "_BLOG_FOOTER";
+	public static final String _FOOTER_WEBINAR_LINK					 	 = "_FOOTER_WEBINAR_LINK";
+	public static final String _EVENTS_CAL_LINK					 		 = "_EVENTS_CAL_LINK";
 }
