@@ -25,8 +25,8 @@
     </distributionManagement>
 
     <organization>
-        <name>SunRun</name>
-        <url>http://www.sunrunhome.com</url>
+        <name>CTI</name>
+        <url>http://www.thecoaches.com</url>
     </organization>
     	<dependencies>
     		<dependency>
@@ -119,9 +119,9 @@
                         <goals>
                             <goal>xvfb</goal>
                         </goals>
-                        <configuration>
+                      <!--   <configuration>
                             <display>:91</display>
-                        </configuration>
+                        </configuration> -->
                     </execution>
 					<execution>
 						<id>start</id>
