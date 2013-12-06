@@ -13,14 +13,12 @@ public class SetupBase {
 	protected WebDriver driver = null;
 
 	protected String baseURL;
+	protected String summitURL;
+	protected String stakebookURL;
+
 	
-	private final int _TIMEOUT = 30; 
+	private final int _TIMEOUT = 30; 	
 	
-	// urls
-	protected final String URL_SUMMIT = "https://" + System.getProperty("summit.url") + "/";
-	protected final String URL_COACHES = "https://" + System.getProperty("coaches.url") + "/";
-	protected final String URL_LEADERSHIP = "https://" + System.getProperty("leadership.url") + "/";
-	protected final String URL_STAKEBOOK = "https://" + System.getProperty("stakebook.url") + "/";
 	
 	/**
 	 * Command to wait for page to load
@@ -33,9 +31,9 @@ public class SetupBase {
 
 	protected void setup() throws Exception{
 		
-		baseURL = "http://" + System.getProperty("summit.url") + "/";
+	//	baseURL = "http://" + System.getProperty("summit.url") + "/";
 		//baseURL = "http://www.coactivesummit.com";
-  		driver.get(baseURL);	
+  		//driver.get(baseURL);	
   		
 	}
 	

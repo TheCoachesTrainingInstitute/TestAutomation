@@ -38,7 +38,8 @@ public class ThestakeBookTest extends Common{
 	@Test
 	public void headerLinks(){
 		try {
-			driver.get(URL_STAKEBOOK);			
+			stakebookURL = "https://" + System.getProperty("stakebook.url") + "/";
+			driver.get(stakebookURL);			
 			//Verifying Title
 			Assert.assertTrue(verifyElementPresent(hashMap.get(CommonConstants._HEADER_IMG)));
 			Assert.assertEquals(driver.getTitle(),(CommonConstants._STAKEBOOK_TITLE)); 

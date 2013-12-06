@@ -167,10 +167,10 @@
                     </systemPropertyVariables>
                      <systemPropertyVariables>
                          <leadership.url>${leadership.url}</leadership.url>
-                    </systemPropertyVariables>
+                    </systemPropertyVariables> -->
                      <systemPropertyVariables>
                          <stakebook.url>${stakebook.url}</stakebook.url>
-                    </systemPropertyVariables>                    -->
+                    </systemPropertyVariables>                   
                     <useFile>true</useFile>
                     <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
                 </configuration>
