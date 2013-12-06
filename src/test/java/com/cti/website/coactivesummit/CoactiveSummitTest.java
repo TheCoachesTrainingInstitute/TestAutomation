@@ -42,7 +42,7 @@ public class CoactiveSummitTest extends Common{
 		try {
 		//	driver.get(URL_SUMMIT);
 			driver.get(baseURL);
-			System.out.println("printing" + System.getProperty("summit.url"));
+			//System.out.println("printing" + baseURL);
 			//Verifying Title
 			Assert.assertTrue(verifyElementPresent(hashMap.get(CommonConstants._SUMMIT_LOGO)));
 			waitForElementPresent(hashMap.get(CommonConstants._HEADER_LINK));
