@@ -231,12 +231,9 @@ public class CoactiveSummitTest extends Common{
 					Assert.assertTrue(false, e.getMessage()+" URL: "+ driver.getCurrentUrl());
 				}
 			}	
-}
-/*
 @AfterClass
 public void quit()
 {
 	tearDown();
 }  
 }
-			*/
