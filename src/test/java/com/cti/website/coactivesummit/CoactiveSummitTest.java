@@ -42,7 +42,7 @@ public class CoactiveSummitTest extends Common{
 		try {
 		//	driver.get(URL_SUMMIT);
 			driver.get(baseURL);
-			//System.out.println("printing" + baseURL);
+			System.out.println("printing" + baseURL);
 			//Verifying Title
 			Assert.assertTrue(verifyElementPresent(hashMap.get(CommonConstants._SUMMIT_LOGO)));
 			waitForElementPresent(hashMap.get(CommonConstants._HEADER_LINK));
@@ -119,7 +119,7 @@ public class CoactiveSummitTest extends Common{
 	@Test (dependsOnMethods = "headerLinks", alwaysRun =true) 
 	public void otherLinks(){
 		try {
-			driver.get(URL_SUMMIT);
+			driver.get(baseURL);
 			click(hashMap.get(CommonConstants.SUMMIT_HOME));
 			waitForElementPresent(hashMap.get(CommonConstants._SUMMIT_LOGO));
 			Assert.assertTrue(verifyElementPresent(hashMap.get(CommonConstants._HEADER_LINK)));
@@ -190,7 +190,7 @@ public class CoactiveSummitTest extends Common{
 			@Test (dependsOnMethods = "otherLinks", alwaysRun =true) 
 				public void footer(){
 				try {
-						driver.get(URL_SUMMIT);
+					driver.get(baseURL);
 						Assert.assertTrue(verifyElementPresent(hashMap.get(CommonConstants._SUMMIT_LOGO)));
 
 						//Checking the Footer links 
