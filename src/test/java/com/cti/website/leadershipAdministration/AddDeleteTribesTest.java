@@ -36,7 +36,8 @@ public class AddDeleteTribesTest extends Common{
 	@Test
 	public void addTribes() {
 		try {
-			driver.get(URL_LEADERSHIP + CommonConstants.LEADERSHIP_ADMIN_URL);
+			leadershipURL = "http://" + System.getProperty("leadership.url") + "/";
+			driver.get(leadershipURL + CommonConstants.LEADERSHIP_ADMIN_URL);
 			waitForElementPresent(hashMap.get(CommonConstants._HOME_LINK));
 			Assert.assertTrue(verifyElementPresent(hashMap.get(CommonConstants._SIGNINFORM)));
 			type(hashMap.get(CommonConstants.EMAIL_TEXTBOX),"ping@me.com");

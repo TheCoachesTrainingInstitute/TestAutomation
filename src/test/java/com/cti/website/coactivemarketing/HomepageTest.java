@@ -37,7 +37,8 @@ public class HomepageTest extends Common{
 	@Test
 	public void verifyLinks(){
 		try {
-			driver.get(URL_COACHES + CommonConstants.COACTIVE_MARK_HOME_URL);
+			coachesURL = "http://" + System.getProperty("coaches.url") + "/" ;
+			driver.get(coachesURL + CommonConstants.COACTIVE_MARK_HOME_URL);
 			Assert.assertTrue(verifyElementPresent(hashMap.get(CommonConstants.EMAIL_TEXTBOX)));
 			Assert.assertTrue(verifyElementPresent(hashMap.get(CommonConstants.PASSWORD_TEXTBOX)));
 			Assert.assertTrue(verifyElementPresent(hashMap.get(CommonConstants.LOGIN_BUTTON)));
@@ -85,7 +86,7 @@ public class HomepageTest extends Common{
 	@Test (dependsOnMethods = "emptyCredentials") 
 	public void adminHomePage(){
 		try {
-			driver.get(URL_COACHES + CommonConstants.COACTIVE_MARK_HOME_URL);	
+			driver.get(coachesURL + CommonConstants.COACTIVE_MARK_HOME_URL);	
 			type(hashMap.get(CommonConstants.EMAIL_TEXTBOX),"ping@me.com");
 			type(hashMap.get(CommonConstants.PASSWORD_TEXTBOX),"abc123");
 			click(hashMap.get(CommonConstants.LOGIN_BUTTON));

@@ -39,7 +39,8 @@ public class ReportsTest extends Common{
 	@Test
 	public void viewReports(){
 		try {
-			driver.get(URL_COACHES + CommonConstants.COACTIVE_SALES_HOME_URL);
+			coachesURL = "http://" + System.getProperty("coaches.url") + "/" ;
+			driver.get(coachesURL + CommonConstants.COACTIVE_SALES_HOME_URL);
 			type(hashMap.get(CommonConstants.EMAIL_TEXTBOX),"ping@me.com");
 			type(hashMap.get(CommonConstants.PASSWORD_TEXTBOX),"abc123");
 			click(hashMap.get(CommonConstants.LOGIN_SALES));
@@ -62,7 +63,7 @@ public class ReportsTest extends Common{
 	@Test(dependsOnMethods = "viewReports") 
 	public void manageAudios(){
 		try {
-			driver.get(URL_COACHES + CommonConstants.COACTIVE_SALES_HOME_URL);
+			driver.get(coachesURL + CommonConstants.COACTIVE_SALES_HOME_URL);
 			type(hashMap.get(CommonConstants.EMAIL_TEXTBOX),"ping@me.com");
 			type(hashMap.get(CommonConstants.PASSWORD_TEXTBOX),"abc123");
 			click(hashMap.get(CommonConstants.LOGIN_SALES));

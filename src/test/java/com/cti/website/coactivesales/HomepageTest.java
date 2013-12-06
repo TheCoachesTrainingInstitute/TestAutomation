@@ -36,7 +36,8 @@ public class HomepageTest extends Common{
 	@Test
 	public void verifyLinks(){
 		try {
-			driver.get(URL_COACHES + CommonConstants.COACTIVE_SALES_HOME_URL);
+			coachesURL = "http://" + System.getProperty("coaches.url") + "/" ;
+			driver.get(coachesURL + CommonConstants.COACTIVE_SALES_HOME_URL);
 			Assert.assertTrue(verifyElementPresent(hashMap.get(CommonConstants.EMAIL_TEXTBOX)));
 			Assert.assertTrue(verifyElementPresent(hashMap.get(CommonConstants.PASSWORD_TEXTBOX)));
 			Assert.assertTrue(verifyElementPresent(hashMap.get(CommonConstants.LOGIN_SALES)));

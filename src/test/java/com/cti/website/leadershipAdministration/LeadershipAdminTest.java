@@ -35,7 +35,8 @@ public class LeadershipAdminTest extends Common{
 	@Test
 	public void headerLinks(){	
 		try {
-			driver.get(URL_LEADERSHIP + CommonConstants.LEADERSHIP_ADMIN_URL);
+			leadershipURL = "http://" + System.getProperty("leadership.url") + "/";
+			driver.get(leadershipURL + CommonConstants.LEADERSHIP_ADMIN_URL);
 			click(hashMap.get(CommonConstants._HOME_LINK));
 			waitForElementPresent(hashMap.get(CommonConstants._C_HOME));
 			Assert.assertTrue(driver.getTitle().equals(hashMap.get(CommonConstants.HOMEPAGE_TITLE)), "The Actual Page Title is: "+ driver.getTitle() +" Did Not Match With Expected Title: "+ hashMap.get(CommonConstants.HOMEPAGE_TITLE));
@@ -66,7 +67,7 @@ public class LeadershipAdminTest extends Common{
 		@Test (dependsOnMethods = "headerLinks", alwaysRun =true)
 		public void breadcrumbs(){
 			try {
-				driver.get(URL_LEADERSHIP + CommonConstants.LEADERSHIP_ADMIN_URL);
+				driver.get(leadershipURL + CommonConstants.LEADERSHIP_ADMIN_URL);
 				click(hashMap.get(CommonConstants._B_HOME_LINK));
 				//waitForElementPresent(_HOME_LINK);
 				Assert.assertTrue(driver.getTitle().equals(hashMap.get(CommonConstants.HOMEPAGE_TITLE)), "The Actual Page Title is: "+ driver.getTitle() +" Did Not Match With Expected Title: "+ hashMap.get(CommonConstants.HOMEPAGE_TITLE));
@@ -89,7 +90,7 @@ public class LeadershipAdminTest extends Common{
 			@Test (dependsOnMethods = "breadcrumbs", alwaysRun =true) 
 			public void home(){
 				try {
-					driver.get(URL_LEADERSHIP + CommonConstants.LEADERSHIP_ADMIN_URL);
+					driver.get(leadershipURL + CommonConstants.LEADERSHIP_ADMIN_URL);
 					waitForElementPresent(hashMap.get(CommonConstants._HOME_LINK));
 					Assert.assertTrue(verifyElementPresent(hashMap.get(CommonConstants._SIGNINFORM)));
 					Assert.assertEquals(getText(hashMap.get(CommonConstants._SIGNINFORM)),"Sign In Page for Administration");

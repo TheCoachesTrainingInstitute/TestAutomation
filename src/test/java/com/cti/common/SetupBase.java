@@ -11,11 +11,12 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class SetupBase {
 
 	protected WebDriver driver = null;
-
+	
 	protected String baseURL;
 	protected String summitURL;
 	protected String stakebookURL;
-
+	protected String leadershipURL;
+	protected String coachesURL;
 	
 	private final int _TIMEOUT = 30; 	
 	
