@@ -21,12 +21,12 @@ import org.testng.Assert;
  */
 public class Common extends SetupBase {
     
-	/* Websites */
+	/* Websites
 
 	protected String _UK_SITE = "http://www.coaching-courses.com/";	
 	protected String _MARKETING = "http://www.thecoaches.com/mktcal/index.php/main/index";
 	
-	/* Header xpaths */
+	 Header xpaths 
 	protected final String _HOME_LINK = "xpath=//*[@id='general']/li[2]/a";
 	protected final String _COACTIVE_NETWORK_LINK = "xpath=//*[@id='general']/li[3]/a";
 	protected final String _FIND_COACH_LINK = "xpath=//*[@id='general']/li[4]/a";
@@ -37,12 +37,12 @@ public class Common extends SetupBase {
 	protected final String _BLOG_LINK = "xpath=//*[@id='general']/li[7]/a";
 	protected final String _CTI_INT_LINK = "xpath=//*[@id='general']/li[8]/a";
 	
-	/* Breadcrumbs */
+	/* Breadcrumbs 
 	
 	protected final String _B_HOME_LINK = "xpath=//*[@id='breadcrumbs']/p/a[1]";
 	protected final String _B_LINK2 = "xpath=//*[@id='breadcrumbs']/p/a[2]";
 	
-	/* Sign In form */
+	/* Sign In form 
 	protected final String _USERNAME= "xpath=//*[@id='signin_username']";
 	protected final String _PASSWORD= "xpath=//*[@id='signin_password']";
 	protected final String _LOG_IN = "xpath=//html/body/div[3]/div/div/div[2]/form/table/tbody/tr[3]/td[2]/input";
@@ -52,7 +52,7 @@ public class Common extends SetupBase {
 	/* Sign In for Administration */
 	protected final String _SIGN_IN_BTTN = "xpath=//*[@id='main']/div[2]/div[1]/form/table/tbody/tr[3]/td[2]/input";
 	
-	/* Footer xpaths */
+	/* Footer xpaths 
 	
 	protected String _FOOTER = "xpath=//*[@id='footer-legal']"; 
 	protected String _DISCLOSURE = "xpath=//*[@id='footer-legal']/a[2]"; 
@@ -61,7 +61,7 @@ public class Common extends SetupBase {
 	protected String _JOBS = "xpath=//*[@id='quick-nav']/li[3]/a";
 	protected String _CONTACT_US = "xpath=//*[@id='quick-nav']/li[4]/a";
 	
-	/* Sub-Menus xpath */
+	/* Sub-Menus xpath 
 	protected final String _WHY_CTI                 = "xpath=//*[@id='nav-sub-why-cti']/a[@href='http://www.thecoaches.com/why-cti']";
 	protected final String _COACH_TRAINING          = "xpath=//*[@id='nav-sub-coach-training']/a[@href='http://www.thecoaches.com/coach-training']";
 	protected final String _LEADERSHIP              = "xpath=//*[@id='nav-sub-leadership']/a[@href='http://www.thecoaches.com/leadership']";
@@ -121,7 +121,7 @@ public class Common extends SetupBase {
 	protected final String _DISRUPT_YOURLIFE_GOODWAY_SUBMENU       = "xpath=//*[@id='nav-sub-disrupt-your-life-in-a-good-way']/a";
 	protected final String _COACTIVE_GLOBAL_NEWSLETTER_SUBMENU     = "xpath=//*[@id='nav-sub-co-active-global-newsletter']/a";
 	
-	/*Header links for UK site */
+	/*Header links for UK site 
 	protected final String _SHARE = "xpath=//*[@id='general']/li[1]/a";
 	protected final String _HOMEPAGE_LINK = "xpath=//*[@id='general']/li[2]/a";
 	protected final String _COACTIVE_LINK = "xpath=//*[@id='general']/li[3]/a";
@@ -131,7 +131,7 @@ public class Common extends SetupBase {
 	protected final String _PRIVACY_POLICY_LINK = "xpath=//*[@id='privacy-link']";
 	
 	
-	/* Menus xpath for UK site */
+	/* Menus xpath for UK site 
 	protected final String _UK_WHY_CTI_ = "xpath=//*[@id='main-nav']/li[1]/a";
 	protected final String _UK_COACH_TRAINING_ = "xpath=//*[@id='main-nav']/li[2]/a";
 	protected final String _UK_LEADERSHIP_ = "xpath=//*[@id='main-nav']/li[3]/a";
@@ -161,7 +161,7 @@ public class Common extends SetupBase {
 
 	protected String _WEBINAR_SIGNUP_LINK = "xpath=//*[@id='webinar-link']";
 	
-	/* Titles for UK sub menus */
+	/* Titles for UK sub menus
 	protected final String _HOMEPAGE_TITLE = "The Coaches Training Institute (CTI)";
 
 	protected final String _UK_WHY_CTI_TITLE = "The Coaches Training Institute (CTI) : Why Coaches Training Institute?";
@@ -214,99 +214,99 @@ public class Common extends SetupBase {
 	protected final String _UK_BOOKS_TITLE = "CTI: Resources: Books";	
 	protected final String _UK_NEWS_TITLE = "CTI: Resources: News & Events";	
 	
-	/* Titles for US site */
-	protected final String HOMEPAGE_TITLE = "The Coaches Training Institute CTI | Life Coaching | Executive Life Coaching | Business Coaching | CTI"; 
-	protected final String COACHTRAINING_TITLE = "Co-Active Coach Training Program | Coaches Training Institute | CTI | CTI";
+	/* Titles for US site 
+	protected final String HOMEPAGE_TITLE = "The Coaches Training Institute CTI | Life Coaching | Executive Life Coaching | Business Coaching |ï¿½CTI"; 
+	protected final String COACHTRAINING_TITLE = "Co-Active Coach Training Program | Coaches Training Institute | CTI |ï¿½CTI";
 	protected final String COACTIVE_TITLE = "Main Community - Home";
 	protected final String FIND_A_COACH_TITLE = "CTI";
-	protected final String E_NEWSLETTER_TITLE = "Sign Up for Our e-Newsletter | CTI";
-	protected final String CONTACT_US_TITLE = "Contact Us | CTI";
+	protected final String E_NEWSLETTER_TITLE = "Sign Up for Our e-Newsletter |ï¿½CTI";
+	protected final String CONTACT_US_TITLE = "Contact Us |ï¿½CTI";
 	protected final String _MYCART_TITLE = "AmeriCart";
 	protected final String _CHECKOUT_TITLE = "AmeriCart";
 	protected final String _BLOG_TITLE = "Coaches Training Institute : Transforum";
-	protected final String _PRESS_TITLE = "Press Room | CTI";
-	protected final String _CTI_INT_TITLE = "CTI International | Coaches Training Institute | CTI | CTI";
+	protected final String _PRESS_TITLE = "Press Room |ï¿½CTI";
+	protected final String _CTI_INT_TITLE = "CTI International | Coaches Training Institute | CTI |ï¿½CTI";
 	protected final String SUMMIT_TITLE = "2014 Global Co-Active Summit";
 	protected final String _MZINGA_TITLE = "Mzinga Signon";
 	protected final String _AMBASSADOR_TITLE = "CTI Ambassadors DC Diary";
 	protected final String _STAKEBOOK_TITLE = "The Stake: The Making of Leaders";
 	
-	/* Sub Navigation Title */
-	/* Sub Menu Titles for WHY CTI */
-	protected final String _ABOUT_CTI_TITLE = "About CTI | Coaches Training Institute | CTI | CTI";
-	protected final String _COACTIVE_TITLE  = "What is Co-Active? | Coaches Training Institute | CTI | CTI"; 
-	protected final String _MNGT_TITLE      = "Management Team | Coaches Training Institute | CTI | CTI"; 
-	protected final String _BUY_BOOK_TITLE  = "Buy the Book | Coaches Training Institute | CTI | CTI"; 
-	protected final String _ACC_FAQ_TITLE   = "Accreditations & Affiliations | Coaches Training Institute | CTI | CTI"; 
+	/* Sub Navigation Title 
+	/* Sub Menu Titles for WHY CTI 
+	protected final String _ABOUT_CTI_TITLE = "About CTI | Coaches Training Institute | CTI |ï¿½CTI";
+	protected final String _COACTIVE_TITLE  = "What is Co-Active? | Coaches Training Institute | CTI |ï¿½CTI"; 
+	protected final String _MNGT_TITLE      = "Management Team | Coaches Training Institute | CTI |ï¿½CTI"; 
+	protected final String _BUY_BOOK_TITLE  = "Buy the Book | Coaches Training Institute | CTI |ï¿½CTI"; 
+	protected final String _ACC_FAQ_TITLE   = "Accreditations & Affiliations | Coaches Training Institute | CTI |ï¿½CTI"; 
 
-	/*Sub Menu Titles for Coach Training */
+	/*Sub Menu Titles for Coach Training 
 
-	protected final String _COURSES_TITLE       = "Core Course Curriculum - Co-Active Coach Training Program | CTI | CTI"; 
-	protected final String _CERTIFICATION_TITLE = "Certification Program - Co-Active Coach Training Program | CTI | CTI"; 
-	protected final String _DATES_TITLE         = "Dates & Locations - Co-Active Coach Training Program | CTI | CTI";
-	protected final String _PRICING_TITLE       = "Pricing & Registration - Co-Active Coach Training Program | CTI | CTI";
-	protected final String _FACULTY_TITLE       = "Faculty - Co-Active Coach Training Program |CTI | CTI";
-	protected final String _FAQS_TITLE          = "Co-Active Coach Training Program FAQs |Coaches Training Institute |CTI | CTI";
-	protected final String _PROFILES_TITLE      = "Profiles | CTI";
-	protected final String _RESOURCES_TITLE     = "Coaching Resources - Co-Active Coach Training Program | CTI | CTI";
-	protected final String _BUILDING_BUS_TITLE  = "Building Business | CTI";
+	protected final String _COURSES_TITLE       = "Core Course Curriculum - Co-Active Coach Training Program | CTI |ï¿½CTI"; 
+	protected final String _CERTIFICATION_TITLE = "Certification Program - Co-Active Coach Training Program | CTI |ï¿½CTI"; 
+	protected final String _DATES_TITLE         = "Dates & Locations - Co-Active Coach Training Program | CTI |ï¿½CTI";
+	protected final String _PRICING_TITLE       = "Pricing & Registration - Co-Active Coach Training Program | CTI |ï¿½CTI";
+	protected final String _FACULTY_TITLE       = "Faculty - Co-Active Coach Training Program |CTI |ï¿½CTI";
+	protected final String _FAQS_TITLE          = "Co-Active Coach Training Program FAQs |Coaches Training Institute |CTI |ï¿½CTI";
+	protected final String _PROFILES_TITLE      = "Profiles |ï¿½CTI";
+	protected final String _RESOURCES_TITLE     = "Coaching Resources - Co-Active Coach Training Program | CTI |ï¿½CTI";
+	protected final String _BUILDING_BUS_TITLE  = "Building Business |ï¿½CTI";
 	protected final String _ASSISTING_TITLE     = "Co-Active Course Assisting - Co-Active Coach Training Program | CTI | CTI";
 	
-	/*Sub Menu Titles for Leadership */
+	/*Sub Menu Titles for Leadership 
 
-	protected final String _PRG_OVR_TITLE        = "Co-Active Leader Program Overview - Leadership Training | CTI | CTI"; 
-	protected final String _RETREATS_TITLE 		 = "Residential Leadership Retreats - Co-Active Leader Program | CTI | CTI";
-	protected final String _LEADER_DATES_TITLE   = "Dates & Locations - Co-Active Leader Training Program | CTI | CTI";
-	protected final String _LEADER_FAQS_TITLE    = "Co-Active Leader Training Program FAQs | CTI | CTI";
-	protected final String _LEADER_PRICING_TITLE = "Pricing & Registration - Co-Active Leader Training Program | CTI | CTI";
-	protected final String _LEADER_FACULTY_TITLE = "Leadership Faculty - Co-Active Leader Training Program | CTI | CTI";
-	protected final String _LEADER_ACC_TITLE     = "College Equivalence - Co-Active Leader Training Program | CTI | CTI";
-	protected final String _LEADER_PROFILES_TITLE= "Profiles | CTI";
-	protected final String _LEADER_CREATING_SELF_TITLE = "Leadership Discovery Retreat - Co-Active Leader Training Program | CTI | CTI";
-	protected final String _LEADER_RESOURCES_TITLE     = "Leadership Resources - Co-Active Leader Training Program | CTI | CTI";
+	protected final String _PRG_OVR_TITLE        = "Co-Active Leader Program Overview - Leadership Training | CTI |ï¿½CTI"; 
+	protected final String _RETREATS_TITLE 		 = "Residential Leadership Retreats - Co-Active Leader Program | CTI |ï¿½CTI";
+	protected final String _LEADER_DATES_TITLE   = "Dates & Locations - Co-Active Leader Training Program | CTI |ï¿½CTI";
+	protected final String _LEADER_FAQS_TITLE    = "Co-Active Leader Training Program FAQs | CTI |ï¿½CTI";
+	protected final String _LEADER_PRICING_TITLE = "Pricing & Registration - Co-Active Leader Training Program | CTI |ï¿½CTI";
+	protected final String _LEADER_FACULTY_TITLE = "Leadership Faculty - Co-Active Leader Training Program | CTI |ï¿½CTI";
+	protected final String _LEADER_ACC_TITLE     = "College Equivalence - Co-Active Leader Training Program | CTI |ï¿½CTI";
+	protected final String _LEADER_PROFILES_TITLE= "Profiles |ï¿½CTI";
+	protected final String _LEADER_CREATING_SELF_TITLE = "Leadership Discovery Retreat - Co-Active Leader Training Program | CTI |ï¿½CTI";
+	protected final String _LEADER_RESOURCES_TITLE     = "Leadership Resources - Co-Active Leader Training Program | CTI |ï¿½CTI";
 	
-	/*Sub Menu Titles for Organizations */
+	/*Sub Menu Titles for Organizations 
 
-	protected final String _ORG_INTERNAL_COACTIVECOACH_TITLE = "Internal Co-Active Coach | Coaches Training Institute | CTI | CTI";
-	protected final String _ORG_TALENTCHAMPIONS_TITLE       = "Talent Champions | Coaches Training Institute | CTI | CTI";
-	protected final String _ORG_LEADERSHIPADVANTAGE_TITLE   = "Leadership Advantage | Coaches Training Institute | CTI | CTI";
-	protected final String _ORG_RELATIONSHIPAGILITY_TITLE   = "Relationship Agility | Coaches Training Institute | CTI | CTI";
-	protected final String _ORG_CLIENTLIST_TITLE            = "Client List | Coaches Training Institute | CTI | CTI";
-	protected final String _ORG_PROFILES_TITLE              = "Profiles | CTI";
-	protected final String _ORG_RESOURCES_TITLE             = "Organizational Resources | Coaches Training Institute | CTI | CTI";
+	protected final String _ORG_INTERNAL_COACTIVECOACH_TITLE = "Internal Co-Active Coach | Coaches Training Institute | CTI |ï¿½CTI";
+	protected final String _ORG_TALENTCHAMPIONS_TITLE       = "Talent Champions | Coaches Training Institute | CTI |ï¿½CTI";
+	protected final String _ORG_LEADERSHIPADVANTAGE_TITLE   = "Leadership Advantage | Coaches Training Institute | CTI |ï¿½CTI";
+	protected final String _ORG_RELATIONSHIPAGILITY_TITLE   = "Relationship Agility | Coaches Training Institute | CTI |ï¿½CTI";
+	protected final String _ORG_CLIENTLIST_TITLE            = "Client List | Coaches Training Institute | CTI |ï¿½CTI";
+	protected final String _ORG_PROFILES_TITLE              = "Profiles |ï¿½CTI";
+	protected final String _ORG_RESOURCES_TITLE             = "Organizational Resources | Coaches Training Institute | CTI |ï¿½CTI";
 	
-	/*Sub Menu Titles for Community */ 
+	/*Sub Menu Titles for Community 
 	
-	protected final String _CONNECT_LOCALLY_TITLE                = "Connect Locally | Coaches Training Institute | CTI | CTI";
-	protected final String _EVENTS_CALENDAR_TITLE                = "Events Calendar | Coaches Training Institute | CTI | CTI";
-	protected final String _2014_COACTIVE_SUMMIT_TITLE           = "2014 Co-Active Summit | Coaches Training Institute | CTI | CTI";
-	protected final String _INSTITUTE_OF_COACHING_TITLE          = "Institute of Coaching | Coaches Training Institute | CTI | CTI";
-	protected final String _HENRY_ONTHE_RADIO_TITLE              = "Henry on the Radio | Coaches Training Institute | CTI | CTI";
-	protected final String _DISRUPT_YOURLIFE_GOODWAY_TITLE       = "Disrupt Your Life in a Good Way | Coaches Training Institute | CTI | CTI";
-	protected final String _COACTIVE_GLOBAL_NEWSLETTER_TITLE	 = "Co-Active Global Newsletter | Coaches Training Institute | CTI | CTI";
+	protected final String _CONNECT_LOCALLY_TITLE                = "Connect Locally | Coaches Training Institute | CTI |ï¿½CTI";
+	protected final String _EVENTS_CALENDAR_TITLE                = "Events Calendar | Coaches Training Institute | CTI |ï¿½CTI";
+	protected final String _2014_COACTIVE_SUMMIT_TITLE           = "2014 Co-Active Summit | Coaches Training Institute | CTI |ï¿½CTI";
+	protected final String _INSTITUTE_OF_COACHING_TITLE          = "Institute of Coaching | Coaches Training Institute | CTI |ï¿½CTI";
+	protected final String _HENRY_ONTHE_RADIO_TITLE              = "Henry on the Radio | Coaches Training Institute | CTI |ï¿½CTI";
+	protected final String _DISRUPT_YOURLIFE_GOODWAY_TITLE       = "Disrupt Your Life in a Good Way | Coaches Training Institute | CTI |ï¿½CTI";
+	protected final String _COACTIVE_GLOBAL_NEWSLETTER_TITLE	 = "Co-Active Global Newsletter | Coaches Training Institute | CTI |ï¿½CTI";
 		 
-	/*Footer Titles */
-	protected final String JOBS_TITLE = "Careers at CTI | CTI";
+	/*Footer Titles 
+	protected final String JOBS_TITLE = "Careers at CTI |ï¿½CTI";
 	
-	/* Header URL's */
+	/* Header URL's 
 	protected final String $contactusURL = "/contact-us";
 	
-	/* CTI - home links */
+	/* CTI - home links 
 	protected final String _C_HOME = "xpath=//html/body/div[1]/header/ul[1]/li[1]/a";
 	protected final String _COACHING_HOME ="xpath=//*[@id='general']/li[2]/a";
+	*/
+	protected String $winHandleBefore = null; 
 	
-	protected String $winHandleBefore = null;
-	
-	/*Common method for Login into account by passing user-name and password as parameters */
+	/*Common method for Login into account by passing user-name and password as parameters 
 	public void loginIntoAccount(String username,String password) throws Exception{
 		type(_USERNAME,username);
 		type(_PASSWORD,password);
 		click(_SIGN_IN_BTTN);
-	}
+	}*/
 	
 	/**
 	 * Login using Portal User credentials
-	 */
+	 
 	protected void login() {
 
 		try {
@@ -319,7 +319,7 @@ public class Common extends SetupBase {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-	}
+	}*/
 	/**
 	 * This function is used to wait until an element is present in the page
 	 * 

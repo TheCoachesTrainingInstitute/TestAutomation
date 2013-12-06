@@ -33,9 +33,9 @@ public class SetupBase {
 
 	protected void setup() throws Exception{
 		
-		//baseURL = "https://" + System.getProperty("summit.url", "coaches.url") + "/";
+		baseURL = "https://" + System.getProperty("summit.url") + "/";
 		//baseURL = "http://www.coactivesummit.com";
-  		//driver.get(baseURL);	
+  		driver.get(baseURL);	
   		
 	}
 	
