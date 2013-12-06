@@ -38,7 +38,7 @@ public class ViewLaunchedTribesTest extends Common{
 	public void viewLaunchedTribes(){
 			try {
 				driver.get(URL_LEADERSHIP + CommonConstants.LEADERSHIP_ADMIN_URL);
-				waitForElementPresent(_HOME_LINK);
+				waitForElementPresent(hashMap.get(CommonConstants._HOME_LINK));
 				Assert.assertTrue(verifyElementPresent(hashMap.get(CommonConstants._SIGNINFORM)));
 				type(hashMap.get(CommonConstants.EMAIL_TEXTBOX),"ping@me.com");
 				type(hashMap.get(CommonConstants.PASSWORD_TEXTBOX),"abc123");

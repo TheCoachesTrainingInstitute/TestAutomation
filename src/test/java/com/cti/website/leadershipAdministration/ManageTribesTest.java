@@ -40,10 +40,9 @@ public class ManageTribesTest extends Common{
 			driver.get(URL_LEADERSHIP + CommonConstants.LEADERSHIP_ADMIN_URL);
 			waitForElementPresent(hashMap.get(CommonConstants._HOME_LINK));
 			Assert.assertTrue(verifyElementPresent(hashMap.get(CommonConstants._SIGNINFORM)));
-			type(_USERNAME,"ping@me.com");
-			type(_PASSWORD,"abc123");
+			type(hashMap.get(CommonConstants.EMAIL_TEXTBOX),"ping@me.com");
+			type(hashMap.get(CommonConstants.PASSWORD_TEXTBOX),"abc123");
 			click(hashMap.get(CommonConstants._SIGNIN_BTTN_LEADERSHIP));
-			
 			
 			//To click on Manage Tribes link
 			click(hashMap.get(CommonConstants._MNG_TRIBES));
